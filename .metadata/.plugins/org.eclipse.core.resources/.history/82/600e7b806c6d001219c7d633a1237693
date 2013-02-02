@@ -3,13 +3,11 @@
 #include <HttpClient.h>
 #include <Cosm.h>
 
-#include "cosm.key"
-
 // MAC address for your Ethernet shield
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 
 // Your Cosm key to let you upload data
-char cosmKey[] = PRIVATE_COSM_KEY;  // defined in cosm.key
+char cosmKey[] = "yW5k8Z9TsMKamNexRFgC5s5seguSAKxMbXhhUCtwOFo5ST0g";
 
 // Analog pin which we're monitoring (0 and 1 are used by the Ethernet shield)
 int sensorPin = 2;
