@@ -1,10 +1,5 @@
-EclipseArduinoMega2560Template
+Arduino COSM Temperature
 ==============================
 
-A template eclipse project contains Arduino library for Mega2560 board
-
-This is a template eclipse workspace contains two projects. One is the Arduino standard library.
-The other is the template "Hello world" application that uses Arduino library.
-It is intended to be used as a starting point for a new Arduino project.
-
+This is a simple Arduino project. It uses two digital temperature sensors (DS18B20) to collect indoor and outdoor temperature. Than it sends the data to the COSM (cosm.com - sensor data hosting).
 
