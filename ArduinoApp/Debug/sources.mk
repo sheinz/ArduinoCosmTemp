@@ -31,4 +31,10 @@ SIZEDUMMY :=
 # Every subdirectory with source files must be described here
 SUBDIRS := \
 . \
+library/SPI \
+library/OneWire \
+library/HttpClient \
+library/Ethernet/utility \
+library/Ethernet \
+library/CosmArduino \
 

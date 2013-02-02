@@ -1,53 +1,53 @@
 Archive member included because of file (symbol)
 
-/home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+/home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                               ./main.o (Serial)
-/home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o) (_ZN5Print5writeEPKhj)
-/home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (_ZNK6StringixEj)
-/home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+/home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o) (_ZN5Print5writeEPKhj)
+/home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (_ZNK6StringixEj)
+/home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
                               /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o (main)
-/home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o) (__cxa_pure_virtual)
-/home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+/home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o) (__cxa_pure_virtual)
+/home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
                               ./main.o (delay)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_udivmodsi4.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o) (__udivmodsi4)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o) (__udivmodsi4)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_exit.o)
                               /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o (exit)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_copy_data.o)
                               ./main.o (__do_copy_data)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_clear_bss.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o) (__do_clear_bss)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o) (__do_clear_bss)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_ctors.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o) (__do_global_ctors)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o) (__do_global_ctors)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fixunssfsi.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__fixunssfsi)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__fixunssfsi)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_addsub_sf.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__addsf3)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__addsf3)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_mul_sf.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__mulsf3)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__mulsf3)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_div_sf.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__divsf3)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__divsf3)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_gt_sf.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__gtsf2)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__gtsf2)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_ge_sf.o)
                               /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fixunssfsi.o) (__gesf2)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_lt_sf.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__ltsf2)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__ltsf2)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_le_sf.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__lesf2)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__lesf2)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_unord_sf.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__unordsf2)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__unordsf2)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_si_to_sf.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__floatsisf)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__floatsisf)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_sf_to_si.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__fixsfsi)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__fixsfsi)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_thenan_sf.o)
                               /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_addsub_sf.o) (__thenan_sf)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_usi_to_sf.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__floatunsisf)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__floatunsisf)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_prologue.o)
                               /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_addsub_sf.o) (__prologue_saves__)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_epilogue.o)
@@ -65,45 +65,45 @@ Archive member included because of file (symbol)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fpcmp_parts_sf.o)
                               /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_gt_sf.o) (__fpcmp_parts_f)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o) (malloc)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o) (malloc)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (realloc)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (realloc)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(atol.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (atol)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (atol)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(isspace.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (isspace)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (isspace)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(tolower.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (tolower)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (tolower)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(toupper.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (toupper)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (toupper)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memcpy.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (memcpy)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (memcpy)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memmove.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (memmove)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (memmove)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strchr.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strchr)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strchr)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcmp.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strcmp)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strcmp)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcpy.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strcpy)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strcpy)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strncmp.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strncmp)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strncmp)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strncpy.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strncpy)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strncpy)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strrchr.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strrchr)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strrchr)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strstr.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strstr)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (strstr)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(itoa.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (itoa)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (itoa)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(ltoa.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (ltoa)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (ltoa)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(mulsi10.o)
                               /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(atol.o) (__mulsi_const_10)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(ultoa.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (ultoa)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (ultoa)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(utoa.o)
-                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (utoa)
+                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o) (utoa)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
                               /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(isspace.o) (__ctype_isfalse)
 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strrev.o)
@@ -124,232 +124,232 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./main.o
  .data          0x0000000000000000        0x0 ./main.o
  .bss           0x0000000000000000        0x0 ./main.o
- .group         0x0000000000000000        0x8 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
- .group         0x0000000000000000        0x8 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
- .group         0x0000000000000000        0x8 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
- .text          0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
- .data          0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
- .bss           0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .group         0x0000000000000000        0x8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .group         0x0000000000000000        0x8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .group         0x0000000000000000        0x8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .text          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .data          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .bss           0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
  .text._ZN14HardwareSerialC2EP11ring_bufferS1_PVhS3_S3_S3_S3_S3_hhhhh
-                0x0000000000000000       0x9c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000000       0x9c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
  .text._ZN14HardwareSerial5beginEmh
-                0x0000000000000000      0x10c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000000      0x10c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
  .text._ZN14HardwareSerial3endEv
-                0x0000000000000000       0xae /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000000       0xae /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
  .text._ZN14HardwareSerialcvbEv
-                0x0000000000000000        0x4 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000000        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
  .rodata._ZTV6Stream
-                0x0000000000000000       0x10 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
- .group         0x0000000000000000        0x8 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
- .group         0x0000000000000000        0x8 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
- .text          0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
- .data          0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
- .bss           0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x10 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .group         0x0000000000000000        0x8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+ .group         0x0000000000000000        0x8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+ .text          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+ .data          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+ .bss           0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print5printEPK19__FlashStringHelper
-                0x0000000000000000       0x42 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x42 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print5printERK6String
-                0x0000000000000000       0x6c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x6c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print5printEPKc
-                0x0000000000000000        0x4 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print5printERK9Printable
-                0x0000000000000000       0x14 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x14 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print7printlnEPK19__FlashStringHelper
-                0x0000000000000000       0x28 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print7printlnERK6String
-                0x0000000000000000       0x28 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print7printlnEc
-                0x0000000000000000       0x28 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print7printlnERK9Printable
-                0x0000000000000000       0x28 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print11printNumberEmh
-                0x0000000000000000       0xb8 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0xb8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print5printEmi
-                0x0000000000000000       0x1a /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x1a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print7printlnEmi
-                0x0000000000000000       0x28 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print5printEji
-                0x0000000000000000        0xc /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000        0xc /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print7printlnEji
-                0x0000000000000000       0x30 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x30 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print5printEhi
-                0x0000000000000000        0xe /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000        0xe /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print7printlnEhi
-                0x0000000000000000       0x32 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x32 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print5printEli
-                0x0000000000000000       0x98 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x98 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print7printlnEli
-                0x0000000000000000       0x28 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print5printEii
-                0x0000000000000000       0x10 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x10 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print7printlnEii
-                0x0000000000000000       0x34 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x34 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .rodata.str1.1
-                0x0000000000000000        0xe /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000        0xe /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print10printFloatEdh
-                0x0000000000000000      0x1e8 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000      0x1e8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print5printEdi
-                0x0000000000000000        0x4 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print7printlnEdi
-                0x0000000000000000       0x28 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000000       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .rodata._ZTV5Print
-                0x0000000000000000        0x8 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
- .text          0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
- .data          0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
- .bss           0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000        0x8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+ .text          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+ .data          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+ .bss           0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6StringD2Ev
-                0x0000000000000000        0xa /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000        0xa /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String10invalidateEv
-                0x0000000000000000       0x24 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x24 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String12changeBufferEj
-                0x0000000000000000       0x34 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x34 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String7reserveEj
-                0x0000000000000000       0x3e /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x3e /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String4copyEPKcj
-                0x0000000000000000       0x42 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x42 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6StringC2EPKc
-                0x0000000000000000       0x3a /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x3a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6StringaSERKS_
-                0x0000000000000000       0x2e /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x2e /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6StringC2ERKS_
-                0x0000000000000000       0x14 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x14 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6StringaSEPKc
-                0x0000000000000000       0x34 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x34 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6StringC2Emh
-                0x0000000000000000       0x5c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x5c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6StringC2Elh
-                0x0000000000000000       0x5c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x5c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6StringC2Ejh
-                0x0000000000000000       0x5a /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x5a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6StringC2Eih
-                0x0000000000000000       0x5a /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x5a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6StringC2Ehh
-                0x0000000000000000       0x5c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x5c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6StringC2Ec
-                0x0000000000000000       0x34 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x34 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String6concatEPKcj
-                0x0000000000000000       0x58 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x58 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String6concatERKS_
-                0x0000000000000000        0xe /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000        0xe /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String6concatEPKc
-                0x0000000000000000       0x20 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x20 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String6concatEc
-                0x0000000000000000       0x28 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String6concatEh
-                0x0000000000000000       0x5a /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x5a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String6concatEi
-                0x0000000000000000       0x64 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x64 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String6concatEj
-                0x0000000000000000       0x5c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x5c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String6concatEl
-                0x0000000000000000       0x66 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x66 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String6concatEm
-                0x0000000000000000       0x66 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x66 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZplRK15StringSumHelperRK6String
-                0x0000000000000000       0x2c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x2c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZplRK15StringSumHelperPKc
-                0x0000000000000000       0x3a /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x3a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZplRK15StringSumHelperc
-                0x0000000000000000       0x22 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZplRK15StringSumHelperh
-                0x0000000000000000       0x22 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZplRK15StringSumHelperi
-                0x0000000000000000       0x22 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZplRK15StringSumHelperj
-                0x0000000000000000       0x22 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZplRK15StringSumHelperl
-                0x0000000000000000       0x22 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZplRK15StringSumHelperm
-                0x0000000000000000       0x22 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String9compareToERKS_
-                0x0000000000000000       0x62 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x62 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String6equalsERKS_
-                0x0000000000000000       0x22 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String6equalsEPKc
-                0x0000000000000000       0x44 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6StringltERKS_
-                0x0000000000000000        0xe /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000        0xe /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6StringgtERKS_
-                0x0000000000000000       0x12 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x12 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6StringleERKS_
-                0x0000000000000000       0x12 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x12 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6StringgeERKS_
-                0x0000000000000000       0x10 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x10 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String16equalsIgnoreCaseERKS_
-                0x0000000000000000       0x70 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x70 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String10startsWithERKS_j
-                0x0000000000000000       0x48 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x48 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String10startsWithERKS_
-                0x0000000000000000       0x1e /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x1e /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String8endsWithERKS_
-                0x0000000000000000       0x42 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x42 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String9setCharAtEjc
-                0x0000000000000000       0x1c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x1c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6StringixEj
-                0x0000000000000000       0x26 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x26 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6StringixEj
-                0x0000000000000000       0x22 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String6charAtEj
-                0x0000000000000000        0x4 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String8getBytesEPhjj
-                0x0000000000000000       0x54 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x54 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String7indexOfEcj
-                0x0000000000000000       0x3c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x3c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String7indexOfEc
-                0x0000000000000000        0x8 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000        0x8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String7indexOfERKS_j
-                0x0000000000000000       0x3c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x3c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String7indexOfERKS_
-                0x0000000000000000        0x8 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000        0x8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String11lastIndexOfEcj
-                0x0000000000000000       0x6c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x6c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String11lastIndexOfEc
-                0x0000000000000000        0xe /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000        0xe /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String11lastIndexOfERKS_j
-                0x0000000000000000       0x9a /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x9a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String11lastIndexOfERKS_
-                0x0000000000000000       0x14 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x14 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .rodata.str1.1
-                0x0000000000000000        0x1 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000        0x1 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String9substringEjj
-                0x0000000000000000       0x8a /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x8a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String9substringEj
-                0x0000000000000000       0x18 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x18 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String7replaceEcc
-                0x0000000000000000       0x1c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x1c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String7replaceERKS_S1_
-                0x0000000000000000      0x224 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000      0x224 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String11toLowerCaseEv
-                0x0000000000000000       0x28 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String11toUpperCaseEv
-                0x0000000000000000       0x28 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZN6String4trimEv
-                0x0000000000000000       0xca /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0xca /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .text._ZNK6String5toIntEv
-                0x0000000000000000       0x18 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000000000       0x18 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
  .bss._ZZN6StringixEjE19dummy_writable_char
-                0x0000000000000000        0x1 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
- .text          0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
- .data          0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
- .bss           0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
- .text          0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
- .data          0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
- .bss           0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
- .text._Znwj    0x0000000000000000        0x4 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
- .text._ZdlPv   0x0000000000000000        0x4 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+                0x0000000000000000        0x1 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+ .text          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+ .data          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+ .bss           0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+ .text          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+ .data          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+ .bss           0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+ .text._Znwj    0x0000000000000000        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+ .text._ZdlPv   0x0000000000000000        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
  .text.__cxa_guard_acquire
-                0x0000000000000000       0x14 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+                0x0000000000000000       0x14 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
  .text.__cxa_guard_release
-                0x0000000000000000        0x8 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+                0x0000000000000000        0x8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
  .text.__cxa_guard_abort
-                0x0000000000000000        0x2 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+                0x0000000000000000        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
  .text.__cxa_pure_virtual
-                0x0000000000000000        0x2 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
- .text          0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
- .data          0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
- .bss           0x0000000000000000        0x0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
- .text.millis   0x0000000000000000       0x24 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x0000000000000000        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+ .text          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+ .data          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+ .bss           0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+ .text.millis   0x0000000000000000       0x24 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
  .text.delayMicroseconds
-                0x0000000000000000       0x14 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x0000000000000000       0x14 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
  .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_udivmodsi4.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_udivmodsi4.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_udivmodsi4.o)
@@ -678,7 +678,7 @@ Linker script and memory map
 Address of section .data set to 0x800200
 LOAD /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 LOAD ./main.o
-LOAD /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a
+LOAD /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a
 LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
 LOAD /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libm.a
 LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
@@ -795,7 +795,7 @@ LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
  *(.lowtext*)
                 0x00000000000000e4                __ctors_start = .
  *(.ctors)
- .ctors         0x00000000000000e4        0x2 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .ctors         0x00000000000000e4        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000000000e6                __ctors_end = .
                 0x00000000000000e6                __dtors_start = .
  *(.dtors)
@@ -889,93 +889,93 @@ LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
  .text.loop     0x000000000000015c       0x18 ./main.o
                 0x000000000000015c                loop
  .text._ZN14HardwareSerial9availableEv
-                0x0000000000000174       0x26 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000174       0x26 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000000174                _ZN14HardwareSerial9availableEv
  .text._ZN14HardwareSerial4peekEv
-                0x000000000000019a       0x38 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x000000000000019a       0x38 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x000000000000019a                _ZN14HardwareSerial4peekEv
  .text._ZN14HardwareSerial4readEv
-                0x00000000000001d2       0x44 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000001d2       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000000001d2                _ZN14HardwareSerial4readEv
  .text._ZN14HardwareSerial5flushEv
-                0x0000000000000216       0x16 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000216       0x16 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000000216                _ZN14HardwareSerial5flushEv
  .text._ZN14HardwareSerial5writeEh
-                0x000000000000022c       0x7a /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x000000000000022c       0x7a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x000000000000022c                _ZN14HardwareSerial5writeEh
  .text._Z10store_charhP11ring_buffer
-                0x00000000000002a6       0x32 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000002a6       0x32 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000000002a6                _Z10store_charhP11ring_buffer
  .text._Z11serialEventv
-                0x00000000000002d8        0x2 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000002d8        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000000002d8                _Z11serialEventv
  .text.__vector_25
-                0x00000000000002da       0x68 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000002da       0x68 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000000002da                __vector_25
  .text._Z12serialEvent1v
-                0x0000000000000342        0x2 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000342        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000000342                _Z12serialEvent1v
  .text.__vector_36
-                0x0000000000000344       0x68 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000344       0x68 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000000344                __vector_36
  .text._Z12serialEvent2v
-                0x00000000000003ac        0x2 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000003ac        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000000003ac                _Z12serialEvent2v
  .text.__vector_51
-                0x00000000000003ae       0x68 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000003ae       0x68 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000000003ae                __vector_51
  .text._Z12serialEvent3v
-                0x0000000000000416        0x2 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000416        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000000416                _Z12serialEvent3v
  .text.__vector_54
-                0x0000000000000418       0x68 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000418       0x68 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000000418                __vector_54
  .text._Z14serialEventRunv
-                0x0000000000000480       0x42 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000480       0x42 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000000480                _Z14serialEventRunv
  .text.__vector_26
-                0x00000000000004c2       0x80 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000004c2       0x80 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000000004c2                __vector_26
  .text.__vector_37
-                0x0000000000000542       0x80 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000542       0x80 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000000542                __vector_37
  .text.__vector_52
-                0x00000000000005c2       0x80 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000005c2       0x80 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000000005c2                __vector_52
  .text.__vector_55
-                0x0000000000000642       0x80 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000000642       0x80 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000000642                __vector_55
  .text._ZN14HardwareSerial5beginEm
-                0x00000000000006c2      0x102 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000006c2      0x102 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000000006c2                _ZN14HardwareSerial5beginEm
  .text.startup._GLOBAL__sub_I_rx_buffer
-                0x00000000000007c4      0x26c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000007c4      0x26c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
  .text._ZN5Print5writeEPKhj
-                0x0000000000000a30       0x50 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000a30       0x50 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
                 0x0000000000000a30                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x0000000000000a80       0x2c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000a80       0x2c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
                 0x0000000000000a80                _ZN5Print5writeEPKc
  .text._ZN5Print5printEc
-                0x0000000000000aac        0xe /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000aac        0xe /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
                 0x0000000000000aac                _ZN5Print5printEc
  .text._ZN5Print7printlnEv
-                0x0000000000000aba       0x2c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000aba       0x2c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
                 0x0000000000000aba                _ZN5Print7printlnEv
  .text._ZN5Print7printlnEPKc
-                0x0000000000000ae6       0x28 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000000ae6       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
                 0x0000000000000ae6                _ZN5Print7printlnEPKc
  .text.startup.main
-                0x0000000000000b0e       0x1a /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+                0x0000000000000b0e       0x1a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
                 0x0000000000000b0e                main
  .text.__vector_23
-                0x0000000000000b28       0x94 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x0000000000000b28       0x94 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
                 0x0000000000000b28                __vector_23
- .text.micros   0x0000000000000bbc       0x54 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+ .text.micros   0x0000000000000bbc       0x54 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
                 0x0000000000000bbc                micros
- .text.delay    0x0000000000000c10       0x4c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+ .text.delay    0x0000000000000c10       0x4c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
                 0x0000000000000c10                delay
- .text.init     0x0000000000000c5c       0xc4 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+ .text.init     0x0000000000000c5c       0xc4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
                 0x0000000000000c5c                init
  .text.libgcc.div
                 0x0000000000000d20       0x44 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_udivmodsi4.o)
@@ -1018,7 +1018,7 @@ LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
  .rodata.str1.1
                 0x0000000000800200        0xc ./main.o
  .rodata._ZTV14HardwareSerial
-                0x000000000080020c       0x10 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x000000000080020c       0x10 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x000000000080020c                _ZTV14HardwareSerial
  *(.gnu.linkonce.d*)
                 0x000000000080021c                . = ALIGN (0x2)
@@ -1029,46 +1029,46 @@ LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
                 0x000000000080021c                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
- .bss.Serial3   0x000000000080021c       0x22 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .bss.Serial3   0x000000000080021c       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x000000000080021c                Serial3
- .bss.Serial2   0x000000000080023e       0x22 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .bss.Serial2   0x000000000080023e       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x000000000080023e                Serial2
- .bss.Serial1   0x0000000000800260       0x22 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .bss.Serial1   0x0000000000800260       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000800260                Serial1
- .bss.Serial    0x0000000000800282       0x22 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .bss.Serial    0x0000000000800282       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000800282                Serial
  .bss.tx_buffer3
-                0x00000000008002a4       0x44 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000008002a4       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000008002a4                tx_buffer3
  .bss.rx_buffer3
-                0x00000000008002e8       0x44 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000008002e8       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000008002e8                rx_buffer3
  .bss.tx_buffer2
-                0x000000000080032c       0x44 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x000000000080032c       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x000000000080032c                tx_buffer2
  .bss.rx_buffer2
-                0x0000000000800370       0x44 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000800370       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000800370                rx_buffer2
  .bss.tx_buffer1
-                0x00000000008003b4       0x44 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000008003b4       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000008003b4                tx_buffer1
  .bss.rx_buffer1
-                0x00000000008003f8       0x44 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000008003f8       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x00000000008003f8                rx_buffer1
  .bss.tx_buffer
-                0x000000000080043c       0x44 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x000000000080043c       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x000000000080043c                tx_buffer
  .bss.rx_buffer
-                0x0000000000800480       0x44 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000800480       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                 0x0000000000800480                rx_buffer
  .bss.timer0_millis
-                0x00000000008004c4        0x4 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x00000000008004c4        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
                 0x00000000008004c4                timer0_millis
  .bss.timer0_overflow_count
-                0x00000000008004c8        0x4 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x00000000008004c8        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
                 0x00000000008004c8                timer0_overflow_count
  .bss.timer0_fract
-                0x00000000008004cc        0x1 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x00000000008004cc        0x1 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
  *(COMMON)
                 0x00000000008004cd                PROVIDE (__bss_end, .)
                 0x0000000000000d70                __data_load_start = LOADADDR (.data)
@@ -1102,17 +1102,17 @@ LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
  .stab          0x0000000000000000      0x6e4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
  .stab          0x00000000000006e4      0x588 ./main.o
                                         0x594 (size before relaxing)
- .stab          0x0000000000000c6c     0x129c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .stab          0x0000000000000c6c     0x129c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                        0x1650 (size before relaxing)
- .stab          0x0000000000001f08      0x60c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+ .stab          0x0000000000001f08      0x60c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
                                        0x120c (size before relaxing)
- .stab          0x0000000000002514      0x39c /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+ .stab          0x0000000000002514      0x39c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
                                        0x23ac (size before relaxing)
- .stab          0x00000000000028b0      0x594 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+ .stab          0x00000000000028b0      0x594 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
                                         0x5a0 (size before relaxing)
- .stab          0x0000000000002e44      0x1ec /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+ .stab          0x0000000000002e44      0x1ec /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
                                         0x2f4 (size before relaxing)
- .stab          0x0000000000003030      0x8a0 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+ .stab          0x0000000000003030      0x8a0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
                                         0x984 (size before relaxing)
  .stab          0x00000000000038d0      0x360 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
                                         0x798 (size before relaxing)
@@ -1179,12 +1179,12 @@ LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
  *(.comment)
  .comment       0x0000000000000000       0x11 ./main.o
                                          0x12 (size before relaxing)
- .comment       0x0000000000000000       0x12 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
- .comment       0x0000000000000000       0x12 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
- .comment       0x0000000000000000       0x12 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
- .comment       0x0000000000000000       0x12 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
- .comment       0x0000000000000000       0x12 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
- .comment       0x0000000000000000       0x12 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+ .comment       0x0000000000000000       0x12 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .comment       0x0000000000000000       0x12 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+ .comment       0x0000000000000000       0x12 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+ .comment       0x0000000000000000       0x12 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+ .comment       0x0000000000000000       0x12 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+ .comment       0x0000000000000000       0x12 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
  .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fixunssfsi.o)
  .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_addsub_sf.o)
  .comment       0x0000000000000000       0x12 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_mul_sf.o)
@@ -1249,120 +1249,120 @@ LOAD linker stubs
 Cross Reference Table
 
 Symbol                                            File
-HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-HardwareSerial::available()                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-HardwareSerial::begin(unsigned long)              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+HardwareSerial::HardwareSerial(ring_buffer*, ring_buffer*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char volatile*, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char) /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+HardwareSerial::available()                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+HardwareSerial::begin(unsigned long)              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                                   ./main.o
-HardwareSerial::begin(unsigned long, unsigned char) /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-HardwareSerial::end()                             /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-HardwareSerial::flush()                           /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-HardwareSerial::operator bool()                   /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-HardwareSerial::peek()                            /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-HardwareSerial::read()                            /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-HardwareSerial::write(unsigned char)              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-Print::print(Printable const&)                    /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::print(String const&)                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::print(__FlashStringHelper const*)          /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::print(char const*)                         /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::print(char)                                /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::print(double, int)                         /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::print(int, int)                            /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::print(long, int)                           /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::print(unsigned char, int)                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::print(unsigned int, int)                   /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::print(unsigned long, int)                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::printFloat(double, unsigned char)          /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::printNumber(unsigned long, unsigned char)  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::println()                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::println(Printable const&)                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::println(String const&)                     /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::println(__FlashStringHelper const*)        /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::println(char const*)                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+HardwareSerial::begin(unsigned long, unsigned char) /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+HardwareSerial::end()                             /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+HardwareSerial::flush()                           /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+HardwareSerial::operator bool()                   /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+HardwareSerial::peek()                            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+HardwareSerial::read()                            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+HardwareSerial::write(unsigned char)              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+Print::print(Printable const&)                    /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::print(String const&)                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::print(__FlashStringHelper const*)          /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::print(char const*)                         /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::print(char)                                /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::print(double, int)                         /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::print(int, int)                            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::print(long, int)                           /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::print(unsigned char, int)                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::print(unsigned int, int)                   /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::print(unsigned long, int)                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::printFloat(double, unsigned char)          /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::printNumber(unsigned long, unsigned char)  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::println()                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::println(Printable const&)                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::println(String const&)                     /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::println(__FlashStringHelper const*)        /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::println(char const*)                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
                                                   ./main.o
-Print::println(char)                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::println(double, int)                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::println(int, int)                          /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::println(long, int)                         /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::println(unsigned char, int)                /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::println(unsigned int, int)                 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::println(unsigned long, int)                /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::write(char const*)                         /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-Print::write(unsigned char const*, unsigned int)  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-Serial                                            /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+Print::println(char)                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::println(double, int)                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::println(int, int)                          /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::println(long, int)                         /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::println(unsigned char, int)                /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::println(unsigned int, int)                 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::println(unsigned long, int)                /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::write(char const*)                         /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+Print::write(unsigned char const*, unsigned int)  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+Serial                                            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                                   ./main.o
-Serial1                                           /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-Serial2                                           /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-Serial3                                           /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-String::String(String const&)                     /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(String const&)                     /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(char const*)                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(char const*)                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(char)                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(char)                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(int, unsigned char)                /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(int, unsigned char)                /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(long, unsigned char)               /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(long, unsigned char)               /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(unsigned char, unsigned char)      /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(unsigned char, unsigned char)      /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(unsigned int, unsigned char)       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(unsigned int, unsigned char)       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(unsigned long, unsigned char)      /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::String(unsigned long, unsigned char)      /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::changeBuffer(unsigned int)                /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::charAt(unsigned int) const                /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::compareTo(String const&) const            /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::concat(String const&)                     /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::concat(char const*)                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::concat(char const*, unsigned int)         /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::concat(char)                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::concat(int)                               /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::concat(long)                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::concat(unsigned char)                     /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::concat(unsigned int)                      /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::concat(unsigned long)                     /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::copy(char const*, unsigned int)           /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::endsWith(String const&) const             /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::equals(String const&) const               /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::equals(char const*) const                 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::equalsIgnoreCase(String const&) const     /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::getBytes(unsigned char*, unsigned int, unsigned int) const /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::indexOf(String const&) const              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::indexOf(String const&, unsigned int) const /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::indexOf(char) const                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::indexOf(char, unsigned int) const         /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::invalidate()                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::lastIndexOf(String const&) const          /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::lastIndexOf(String const&, unsigned int) const /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::lastIndexOf(char) const                   /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::lastIndexOf(char, unsigned int) const     /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::operator<(String const&) const            /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::operator<=(String const&) const           /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::operator=(String const&)                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::operator=(char const*)                    /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::operator>(String const&) const            /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::operator>=(String const&) const           /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::operator[](unsigned int)                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::operator[](unsigned int) const            /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-String::replace(String const&, String const&)     /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::replace(char, char)                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::reserve(unsigned int)                     /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::setCharAt(unsigned int, char)             /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::startsWith(String const&) const           /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::startsWith(String const&, unsigned int) const /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::substring(unsigned int) const             /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::substring(unsigned int, unsigned int) const /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::toInt() const                             /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::toLowerCase()                             /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::toUpperCase()                             /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::trim()                                    /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::~String()                                 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-String::~String()                                 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+Serial1                                           /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+Serial2                                           /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+Serial3                                           /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+String::String(String const&)                     /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(String const&)                     /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(char const*)                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(char const*)                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(char)                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(char)                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(int, unsigned char)                /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(int, unsigned char)                /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(long, unsigned char)               /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(long, unsigned char)               /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(unsigned char, unsigned char)      /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(unsigned char, unsigned char)      /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(unsigned int, unsigned char)       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(unsigned int, unsigned char)       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(unsigned long, unsigned char)      /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::String(unsigned long, unsigned char)      /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::changeBuffer(unsigned int)                /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::charAt(unsigned int) const                /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::compareTo(String const&) const            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::concat(String const&)                     /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::concat(char const*)                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::concat(char const*, unsigned int)         /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::concat(char)                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::concat(int)                               /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::concat(long)                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::concat(unsigned char)                     /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::concat(unsigned int)                      /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::concat(unsigned long)                     /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::copy(char const*, unsigned int)           /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::endsWith(String const&) const             /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::equals(String const&) const               /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::equals(char const*) const                 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::equalsIgnoreCase(String const&) const     /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::getBytes(unsigned char*, unsigned int, unsigned int) const /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::indexOf(String const&) const              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::indexOf(String const&, unsigned int) const /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::indexOf(char) const                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::indexOf(char, unsigned int) const         /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::invalidate()                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::lastIndexOf(String const&) const          /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::lastIndexOf(String const&, unsigned int) const /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::lastIndexOf(char) const                   /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::lastIndexOf(char, unsigned int) const     /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::operator<(String const&) const            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::operator<=(String const&) const           /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::operator=(String const&)                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::operator=(char const*)                    /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::operator>(String const&) const            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::operator>=(String const&) const           /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::operator[](unsigned int)                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::operator[](unsigned int) const            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+String::replace(String const&, String const&)     /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::replace(char, char)                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::reserve(unsigned int)                     /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::setCharAt(unsigned int, char)             /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::startsWith(String const&) const           /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::startsWith(String const&, unsigned int) const /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::substring(unsigned int) const             /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::substring(unsigned int, unsigned int) const /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::toInt() const                             /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::toLowerCase()                             /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::toUpperCase()                             /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::trim()                                    /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::~String()                                 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+String::~String()                                 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 __addsf3                                          /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_addsub_sf.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __bad_interrupt                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __brkval                                          /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
@@ -1378,31 +1378,31 @@ __ctors_start                                     /usr/lib/gcc/avr/4.7.0/avr6/li
 __ctype_isfalse                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(isspace.o)
 __ctype_istrue                                    /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
-__cxa_guard_abort                                 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
-__cxa_guard_acquire                               /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
-__cxa_guard_release                               /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
-__cxa_pure_virtual                                /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+__cxa_guard_abort                                 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+__cxa_guard_acquire                               /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+__cxa_guard_release                               /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+__cxa_pure_virtual                                /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
 __data_end                                        /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_copy_data.o)
 __data_load_start                                 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_copy_data.o)
 __data_start                                      /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_copy_data.o)
 __divsf3                                          /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_div_sf.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __do_clear_bss                                    /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_clear_bss.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
 __do_copy_data                                    /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_copy_data.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
                                                   /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_thenan_sf.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                                   ./main.o
 __do_global_ctors                                 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_ctors.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
 __epilogue_restores__                             /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_epilogue.o)
                                                   /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_usi_to_sf.o)
                                                   /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_sf_to_si.o)
@@ -1417,13 +1417,13 @@ __epilogue_restores__                             /usr/lib/gcc/avr/4.7.0/avr6/li
                                                   /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_addsub_sf.o)
 __fixsfsi                                         /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_sf_to_si.o)
                                                   /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fixunssfsi.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __fixunssfsi                                      /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fixunssfsi.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __floatsisf                                       /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_si_to_sf.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __floatunsisf                                     /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_usi_to_sf.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __flp                                             /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
 __fpcmp_parts_f                                   /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fpcmp_parts_sf.o)
@@ -1434,22 +1434,22 @@ __fpcmp_parts_f                                   /usr/lib/gcc/avr/4.7.0/avr6/li
 __gesf2                                           /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_ge_sf.o)
                                                   /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fixunssfsi.o)
 __gtsf2                                           /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_gt_sf.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __heap_end                                        /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
 __heap_start                                      /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
 __init                                            /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __lesf2                                           /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_le_sf.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __ltsf2                                           /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_lt_sf.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __malloc_heap_end                                 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
 __malloc_heap_start                               /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
 __malloc_margin                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
 __mulsf3                                          /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_mul_sf.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __mulsi_const_10                                  /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(mulsi10.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(atol.o)
 __pack_f                                          /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_pack_sf.o)
@@ -1473,7 +1473,7 @@ __prologue_saves__                                /usr/lib/gcc/avr/4.7.0/avr6/li
 __stack                                           /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __subsf3                                          /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_addsub_sf.o)
                                                   /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fixunssfsi.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __tablejump_elpm__                                /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_tablejump_elpm.o)
                                                   /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_ctors.o)
 __thenan_sf                                       /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_thenan_sf.o)
@@ -1486,10 +1486,10 @@ __udivmodhi4                                      /usr/lib/gcc/avr/4.7.0/avr6/li
 __udivmodsi4                                      /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_udivmodsi4.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(ultoa.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(ltoa.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
 __unordsf2                                        /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_unord_sf.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __unpack_f                                        /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_unpack_sf.o)
                                                   /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_sf_to_si.o)
                                                   /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_unord_sf.o)
@@ -1515,12 +1515,12 @@ __vector_2                                        /usr/lib/gcc/avr/4.7.0/../../.
 __vector_20                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_21                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_22                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
-__vector_23                                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+__vector_23                                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_24                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
-__vector_25                                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+__vector_25                                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
-__vector_26                                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+__vector_26                                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_27                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_28                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
@@ -1532,9 +1532,9 @@ __vector_32                                       /usr/lib/gcc/avr/4.7.0/../../.
 __vector_33                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_34                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_35                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
-__vector_36                                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+__vector_36                                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
-__vector_37                                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+__vector_37                                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_38                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_39                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
@@ -1551,14 +1551,14 @@ __vector_48                                       /usr/lib/gcc/avr/4.7.0/../../.
 __vector_49                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_5                                        /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_50                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
-__vector_51                                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+__vector_51                                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
-__vector_52                                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+__vector_52                                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_53                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
-__vector_54                                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+__vector_54                                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
-__vector_55                                       /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+__vector_55                                       /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_56                                       /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 __vector_6                                        /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
@@ -1569,97 +1569,97 @@ __vector_default                                  /usr/lib/gcc/avr/4.7.0/../../.
 __vectors                                         /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 _exit                                             /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_exit.o)
 atol                                              /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(atol.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-delay                                             /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+delay                                             /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
                                                   ./main.o
-delayMicroseconds                                 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+delayMicroseconds                                 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
 exit                                              /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_exit.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 free                                              /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-init                                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+init                                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
 isspace                                           /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(isspace.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 itoa                                              /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(itoa.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 loop                                              ./main.o
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
 ltoa                                              /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(ltoa.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-main                                              /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+main                                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 malloc                                            /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
 memcpy                                            /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memcpy.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memmove.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 memmove                                           /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memmove.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-micros                                            /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
-millis                                            /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
-operator delete(void*)                            /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
-operator new(unsigned int)                        /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
-operator+(StringSumHelper const&, String const&)  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-operator+(StringSumHelper const&, char const*)    /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-operator+(StringSumHelper const&, char)           /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-operator+(StringSumHelper const&, int)            /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-operator+(StringSumHelper const&, long)           /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-operator+(StringSumHelper const&, unsigned char)  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-operator+(StringSumHelper const&, unsigned int)   /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-operator+(StringSumHelper const&, unsigned long)  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+micros                                            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+millis                                            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+operator delete(void*)                            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+operator new(unsigned int)                        /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+operator+(StringSumHelper const&, String const&)  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+operator+(StringSumHelper const&, char const*)    /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+operator+(StringSumHelper const&, char)           /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+operator+(StringSumHelper const&, int)            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+operator+(StringSumHelper const&, long)           /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+operator+(StringSumHelper const&, unsigned char)  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+operator+(StringSumHelper const&, unsigned int)   /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+operator+(StringSumHelper const&, unsigned long)  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 realloc                                           /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-rx_buffer                                         /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-rx_buffer1                                        /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-rx_buffer2                                        /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-rx_buffer3                                        /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-serialEvent()                                     /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-serialEvent1()                                    /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-serialEvent2()                                    /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-serialEvent3()                                    /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-serialEventRun()                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+rx_buffer                                         /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+rx_buffer1                                        /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+rx_buffer2                                        /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+rx_buffer3                                        /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+serialEvent()                                     /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+serialEvent1()                                    /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+serialEvent2()                                    /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+serialEvent3()                                    /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+serialEventRun()                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
 setup                                             ./main.o
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
-store_char(unsigned char, ring_buffer*)           /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+store_char(unsigned char, ring_buffer*)           /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
 strchr                                            /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strchr.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 strcmp                                            /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcmp.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 strcpy                                            /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcpy.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 strncmp                                           /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strncmp.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 strncpy                                           /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strncpy.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 strrchr                                           /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strrchr.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 strrev                                            /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strrev.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(utoa.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(ultoa.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(ltoa.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(itoa.o)
 strstr                                            /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strstr.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-timer0_millis                                     /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
-timer0_overflow_count                             /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+timer0_millis                                     /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+timer0_overflow_count                             /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
 tolower                                           /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(tolower.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 toupper                                           /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(toupper.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-tx_buffer                                         /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-tx_buffer1                                        /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-tx_buffer2                                        /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-tx_buffer3                                        /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+tx_buffer                                         /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+tx_buffer1                                        /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+tx_buffer2                                        /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+tx_buffer3                                        /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
 ultoa                                             /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(ultoa.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
 utoa                                              /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(utoa.o)
-                                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-vtable for HardwareSerial                         /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-vtable for Print                                  /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-vtable for Stream                                 /home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+vtable for HardwareSerial                         /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+vtable for Print                                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+vtable for Stream                                 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)

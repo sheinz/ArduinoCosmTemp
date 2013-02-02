@@ -1,4 +1,4 @@
-19:32:42 **** Clean-only build of configuration Mega2560 for project ArduinoCoreLibrary ****
+20:17:23 **** Clean-only build of configuration Mega2560 for project ArduinoCoreLibrary ****
 make clean 
 rm -rf  ./src/CDC.o ./src/HID.o ./src/HardwareSerial.o ./src/IPAddress.o ./src/Print.o ./src/Stream.o ./src/Tone.o ./src/USBCore.o ./src/WInterrupts.o ./src/WMath.o ./src/WString.o ./src/main.o ./src/new.o ./src/wiring.o ./src/wiring_analog.o ./src/wiring_digital.o ./src/wiring_pulse.o ./src/wiring_shift.o  ./src/WInterrupts.d ./src/wiring.d ./src/wiring_analog.d ./src/wiring_digital.d ./src/wiring_pulse.d ./src/wiring_shift.d  libArduinoCoreLibrary.lss  ./src/CDC.d ./src/HID.d ./src/HardwareSerial.d ./src/IPAddress.d ./src/Print.d ./src/Stream.d ./src/Tone.d ./src/USBCore.d ./src/WMath.d ./src/WString.d ./src/main.d ./src/new.d  sizedummy  libArduinoCoreLibrary.a
  

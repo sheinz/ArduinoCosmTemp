@@ -8,6 +8,12 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include library/SPI/subdir.mk
+-include library/OneWire/subdir.mk
+-include library/HttpClient/subdir.mk
+-include library/Ethernet/utility/subdir.mk
+-include library/Ethernet/subdir.mk
+-include library/CosmArduino/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -61,7 +67,7 @@ all: ArduinoApp.elf secondary-outputs
 ArduinoApp.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: AVR C++ Linker'
-	avr-g++ -Wl,-Map,ArduinoApp.map,--cref -Wl,--gc-sections -L"/home/yura/Projects/EclipseArduinoMega2560Template/ArduinoCoreLibrary/Mega2560" -mmcu=atmega2560 -o "ArduinoApp.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	avr-g++ -Wl,-Map,ArduinoApp.map,--cref -Wl,--gc-sections -L"/home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560" -mmcu=atmega2560 -o "ArduinoApp.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
