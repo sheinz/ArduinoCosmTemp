@@ -17,3 +17,8 @@
 
 # Eclipse workspace
 .metadata/
+
+# Build directories
+Debug/
+Release/
+Mega2560/
