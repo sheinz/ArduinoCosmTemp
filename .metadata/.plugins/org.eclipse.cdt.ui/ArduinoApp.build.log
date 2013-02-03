@@ -1,7 +1,0 @@
-02:02:56 **** Clean-only build of configuration Debug for project ArduinoApp ****
-make clean 
-rm -rf  ./library/SPI/SPI.o  ./library/OneWire/OneWire.o  ./library/HttpClient/HttpClient.o ./library/HttpClient/b64.o  ./library/Ethernet/utility/socket.o ./library/Ethernet/utility/w5100.o  ./library/Ethernet/Dhcp.o ./library/Ethernet/Dns.o ./library/Ethernet/Ethernet.o ./library/Ethernet/EthernetClient.o ./library/Ethernet/EthernetServer.o ./library/Ethernet/EthernetUdp.o  ./library/CosmArduino/CosmClient.o ./library/CosmArduino/CosmDatastream.o ./library/CosmArduino/CosmFeed.o  ./DS18B20.o ./main.o  ArduinoApp.hex  ArduinoApp.lss  ./library/SPI/SPI.d  ./library/OneWire/OneWire.d  ./library/HttpClient/HttpClient.d ./library/HttpClient/b64.d  ./library/Ethernet/utility/socket.d ./library/Ethernet/utility/w5100.d  ./library/Ethernet/Dhcp.d ./library/Ethernet/Dns.d ./library/Ethernet/Ethernet.d ./library/Ethernet/EthernetClient.d ./library/Ethernet/EthernetServer.d ./library/Ethernet/EthernetUdp.d  ./library/CosmArduino/CosmClient.d ./library/CosmArduino/CosmDatastream.d ./library/CosmArduino/CosmFeed.d  ./DS18B20.d ./main.d  sizedummy  ArduinoApp.elf
- 
-
-02:02:56 Build Finished (took 62ms)
-
