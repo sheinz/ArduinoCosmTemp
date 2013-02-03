@@ -47,7 +47,7 @@ Archive member included because of file (symbol)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_addsub_sf.o)
                               /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__addsf3)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_mul_sf.o)
-                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__mulsf3)
+                              ./DS18B20.o (__mulsf3)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_div_sf.o)
                               /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__divsf3)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_gt_sf.o)
@@ -55,13 +55,13 @@ Archive member included because of file (symbol)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_ge_sf.o)
                               /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fixunssfsi.o) (__gesf2)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_lt_sf.o)
-                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__ltsf2)
+                              ./main.o (__ltsf2)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_le_sf.o)
                               /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__lesf2)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_unord_sf.o)
                               /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__unordsf2)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_si_to_sf.o)
-                              /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__floatsisf)
+                              ./DS18B20.o (__floatsisf)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_sf_to_si.o)
                               /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o) (__fixsfsi)
 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_thenan_sf.o)
@@ -166,40 +166,18 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./library/OneWire/OneWire.o
  .data          0x0000000000000000        0x0 ./library/OneWire/OneWire.o
  .bss           0x0000000000000000        0x0 ./library/OneWire/OneWire.o
- .text._ZN7OneWire5resetEv
-                0x0000000000000000       0x84 ./library/OneWire/OneWire.o
- .text._ZN7OneWire9write_bitEh
-                0x0000000000000000       0x58 ./library/OneWire/OneWire.o
- .text._ZN7OneWire8read_bitEv
-                0x0000000000000000       0x56 ./library/OneWire/OneWire.o
- .text._ZN7OneWire5writeEhh
-                0x0000000000000000       0x84 ./library/OneWire/OneWire.o
  .text._ZN7OneWire11write_bytesEPKhjb
                 0x0000000000000000       0x7c ./library/OneWire/OneWire.o
- .text._ZN7OneWire4readEv
-                0x0000000000000000       0x38 ./library/OneWire/OneWire.o
  .text._ZN7OneWire10read_bytesEPhj
                 0x0000000000000000       0x34 ./library/OneWire/OneWire.o
- .text._ZN7OneWire6selectEPh
-                0x0000000000000000       0x5a ./library/OneWire/OneWire.o
  .text._ZN7OneWire4skipEv
                 0x0000000000000000        0x8 ./library/OneWire/OneWire.o
  .text._ZN7OneWire7depowerEv
                 0x0000000000000000       0x1a ./library/OneWire/OneWire.o
- .text._ZN7OneWire12reset_searchEv
-                0x0000000000000000       0x1a ./library/OneWire/OneWire.o
- .text._ZN7OneWireC2Eh
-                0x0000000000000000       0x46 ./library/OneWire/OneWire.o
- .text._ZN7OneWire6searchEPh
-                0x0000000000000000      0x114 ./library/OneWire/OneWire.o
- .text._ZN7OneWire4crc8EPhh
-                0x0000000000000000       0x18 ./library/OneWire/OneWire.o
  .text._ZN7OneWire5crc16EPhj
                 0x0000000000000000       0x6c ./library/OneWire/OneWire.o
  .text._ZN7OneWire11check_crc16EPhjS0_
                 0x0000000000000000       0x34 ./library/OneWire/OneWire.o
- .progmem.data._ZL11dscrc_table
-                0x0000000000000000      0x100 ./library/OneWire/OneWire.o
  .rodata._ZZN7OneWire5crc16EPhjE9oddparity
                 0x0000000000000000       0x10 ./library/OneWire/OneWire.o
  .group         0x0000000000000000        0x8 ./library/HttpClient/HttpClient.o
@@ -422,6 +400,13 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./library/CosmArduino/CosmFeed.o
  .rodata._ZTV9Printable
                 0x0000000000000000        0x6 ./library/CosmArduino/CosmFeed.o
+ .text          0x0000000000000000        0x0 ./DS18B20.o
+ .data          0x0000000000000000        0x0 ./DS18B20.o
+ .bss           0x0000000000000000        0x0 ./DS18B20.o
+ .text._ZN7DS18B2019startMeasurementAllEv
+                0x0000000000000000       0x24 ./DS18B20.o
+ .text._ZN7DS18B2018getNumberOfSensorsEv
+                0x0000000000000000        0xa ./DS18B20.o
  _ZN14CosmDatastreamD5Ev
                 0x0000000000000000        0x8 ./main.o
  .text          0x0000000000000000        0x0 ./main.o
@@ -477,8 +462,6 @@ Discarded input sections
                 0x0000000000000000       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print7printlnEji
                 0x0000000000000000       0x30 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
- .text._ZN5Print7printlnEhi
-                0x0000000000000000       0x32 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .text._ZN5Print7printlnEli
                 0x0000000000000000       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
  .rodata._ZTV5Print
@@ -670,15 +653,11 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
  .data          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
  .bss           0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
- .text.delayMicroseconds
-                0x0000000000000000       0x14 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
  .text          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
  .data          0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
  .bss           0x0000000000000000        0x0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
  .text.digitalRead
                 0x0000000000000000       0x52 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
- .progmem.data.port_to_input_PGM
-                0x0000000000000000       0x1a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
  .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_muluhisi3.o)
  .data          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_muluhisi3.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_muluhisi3.o)
@@ -1097,6 +1076,7 @@ LOAD ./library/Ethernet/EthernetUdp.o
 LOAD ./library/CosmArduino/CosmClient.o
 LOAD ./library/CosmArduino/CosmDatastream.o
 LOAD ./library/CosmArduino/CosmFeed.o
+LOAD ./DS18B20.o
 LOAD ./main.o
 LOAD /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a
 LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
@@ -1195,7 +1175,7 @@ LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000     0x5c44
+.text           0x0000000000000000     0x641e
  *(.vectors)
  .vectors       0x0000000000000000       0xe4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
                 0x0000000000000000                __vectors
@@ -1203,825 +1183,883 @@ LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
  *(.vectors)
  *(.progmem.gcc*)
  *(.progmem*)
+ .progmem.data._ZL11dscrc_table
+                0x00000000000000e4      0x100 ./library/OneWire/OneWire.o
  .progmem.data.digital_pin_to_timer_PGM
-                0x00000000000000e4       0x46 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
-                0x00000000000000e4                digital_pin_to_timer_PGM
+                0x00000000000001e4       0x46 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
+                0x00000000000001e4                digital_pin_to_timer_PGM
  .progmem.data.digital_pin_to_bit_mask_PGM
-                0x000000000000012a       0x46 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
-                0x000000000000012a                digital_pin_to_bit_mask_PGM
+                0x000000000000022a       0x46 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
+                0x000000000000022a                digital_pin_to_bit_mask_PGM
  .progmem.data.digital_pin_to_port_PGM
-                0x0000000000000170       0x46 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
-                0x0000000000000170                digital_pin_to_port_PGM
+                0x0000000000000270       0x46 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
+                0x0000000000000270                digital_pin_to_port_PGM
+ .progmem.data.port_to_input_PGM
+                0x00000000000002b6       0x1a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
+                0x00000000000002b6                port_to_input_PGM
  .progmem.data.port_to_output_PGM
-                0x00000000000001b6       0x1a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
-                0x00000000000001b6                port_to_output_PGM
+                0x00000000000002d0       0x1a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
+                0x00000000000002d0                port_to_output_PGM
  .progmem.data.port_to_mode_PGM
-                0x00000000000001d0       0x1a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
-                0x00000000000001d0                port_to_mode_PGM
-                0x00000000000001ea                . = ALIGN (0x2)
-                0x00000000000001ea                __trampolines_start = .
+                0x00000000000002ea       0x1a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
+                0x00000000000002ea                port_to_mode_PGM
+                0x0000000000000304                . = ALIGN (0x2)
+                0x0000000000000304                __trampolines_start = .
  *(.trampolines)
- .trampolines   0x00000000000001ea        0x0 linker stubs
+ .trampolines   0x0000000000000304        0x0 linker stubs
  *(.trampolines*)
-                0x00000000000001ea                __trampolines_end = .
+                0x0000000000000304                __trampolines_end = .
  *(.jumptables)
  *(.jumptables*)
  *(.lowtext)
  *(.lowtext*)
-                0x00000000000001ea                __ctors_start = .
+                0x0000000000000304                __ctors_start = .
  *(.ctors)
- .ctors         0x00000000000001ea        0x2 ./library/HttpClient/HttpClient.o
- .ctors         0x00000000000001ec        0x2 ./library/Ethernet/Dhcp.o
- .ctors         0x00000000000001ee        0x2 ./library/Ethernet/Dns.o
- .ctors         0x00000000000001f0        0x2 ./library/Ethernet/Ethernet.o
- .ctors         0x00000000000001f2        0x2 ./library/Ethernet/EthernetClient.o
- .ctors         0x00000000000001f4        0x2 ./library/Ethernet/EthernetServer.o
- .ctors         0x00000000000001f6        0x2 ./library/Ethernet/EthernetUdp.o
- .ctors         0x00000000000001f8        0x2 ./library/CosmArduino/CosmClient.o
- .ctors         0x00000000000001fa        0x2 ./library/CosmArduino/CosmFeed.o
- .ctors         0x00000000000001fc        0x2 ./main.o
- .ctors         0x00000000000001fe        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
- .ctors         0x0000000000000200        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
-                0x0000000000000202                __ctors_end = .
-                0x0000000000000202                __dtors_start = .
+ .ctors         0x0000000000000304        0x2 ./library/HttpClient/HttpClient.o
+ .ctors         0x0000000000000306        0x2 ./library/Ethernet/Dhcp.o
+ .ctors         0x0000000000000308        0x2 ./library/Ethernet/Dns.o
+ .ctors         0x000000000000030a        0x2 ./library/Ethernet/Ethernet.o
+ .ctors         0x000000000000030c        0x2 ./library/Ethernet/EthernetClient.o
+ .ctors         0x000000000000030e        0x2 ./library/Ethernet/EthernetServer.o
+ .ctors         0x0000000000000310        0x2 ./library/Ethernet/EthernetUdp.o
+ .ctors         0x0000000000000312        0x2 ./library/CosmArduino/CosmClient.o
+ .ctors         0x0000000000000314        0x2 ./library/CosmArduino/CosmFeed.o
+ .ctors         0x0000000000000316        0x2 ./main.o
+ .ctors         0x0000000000000318        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .ctors         0x000000000000031a        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
+                0x000000000000031c                __ctors_end = .
+                0x000000000000031c                __dtors_start = .
  *(.dtors)
- .dtors         0x0000000000000202        0x2 ./main.o
-                0x0000000000000204                __dtors_end = .
+ .dtors         0x000000000000031c        0x2 ./main.o
+                0x000000000000031e                __dtors_end = .
  SORT(*)(.ctors)
  SORT(*)(.dtors)
  *(.init0)
- .init0         0x0000000000000204        0x0 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
-                0x0000000000000204                __init
+ .init0         0x000000000000031e        0x0 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
+                0x000000000000031e                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x0000000000000204       0x10 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
+ .init2         0x000000000000031e       0x10 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
  *(.init2)
  *(.init3)
  *(.init3)
  *(.init4)
- .init4         0x0000000000000214       0x1a /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_copy_data.o)
-                0x0000000000000214                __do_copy_data
- .init4         0x000000000000022e       0x10 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_clear_bss.o)
-                0x000000000000022e                __do_clear_bss
+ .init4         0x000000000000032e       0x1a /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_copy_data.o)
+                0x000000000000032e                __do_copy_data
+ .init4         0x0000000000000348       0x10 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_clear_bss.o)
+                0x0000000000000348                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
  *(.init6)
- .init6         0x000000000000023e       0x20 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_ctors.o)
-                0x000000000000023e                __do_global_ctors
+ .init6         0x0000000000000358       0x20 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_ctors.o)
+                0x0000000000000358                __do_global_ctors
  *(.init6)
  *(.init7)
  *(.init7)
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x000000000000025e        0x8 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
+ .init9         0x0000000000000378        0x8 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
  *(.init9)
  *(.text)
- .text          0x0000000000000266        0x4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
-                0x0000000000000266                __vector_38
-                0x0000000000000266                __vector_22
-                0x0000000000000266                __vector_28
-                0x0000000000000266                __vector_1
-                0x0000000000000266                __vector_32
-                0x0000000000000266                __vector_34
-                0x0000000000000266                __vector_24
-                0x0000000000000266                __vector_12
-                0x0000000000000266                __vector_46
-                0x0000000000000266                __bad_interrupt
-                0x0000000000000266                __vector_6
-                0x0000000000000266                __vector_31
-                0x0000000000000266                __vector_35
-                0x0000000000000266                __vector_39
-                0x0000000000000266                __vector_3
-                0x0000000000000266                __vector_30
-                0x0000000000000266                __vector_45
-                0x0000000000000266                __vector_11
-                0x0000000000000266                __vector_13
-                0x0000000000000266                __vector_17
-                0x0000000000000266                __vector_19
-                0x0000000000000266                __vector_56
-                0x0000000000000266                __vector_7
-                0x0000000000000266                __vector_49
-                0x0000000000000266                __vector_41
-                0x0000000000000266                __vector_43
-                0x0000000000000266                __vector_27
-                0x0000000000000266                __vector_5
-                0x0000000000000266                __vector_33
-                0x0000000000000266                __vector_47
-                0x0000000000000266                __vector_4
-                0x0000000000000266                __vector_44
-                0x0000000000000266                __vector_9
-                0x0000000000000266                __vector_2
-                0x0000000000000266                __vector_21
-                0x0000000000000266                __vector_15
-                0x0000000000000266                __vector_29
-                0x0000000000000266                __vector_40
-                0x0000000000000266                __vector_8
-                0x0000000000000266                __vector_48
-                0x0000000000000266                __vector_14
-                0x0000000000000266                __vector_53
-                0x0000000000000266                __vector_10
-                0x0000000000000266                __vector_50
-                0x0000000000000266                __vector_16
-                0x0000000000000266                __vector_18
-                0x0000000000000266                __vector_20
-                0x0000000000000266                __vector_42
- .text          0x000000000000026a       0x5a /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fixunssfsi.o)
-                0x000000000000026a                __fixunssfsi
- .text          0x00000000000002c4      0x35c /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_addsub_sf.o)
-                0x0000000000000568                __addsf3
-                0x00000000000005c0                __subsf3
- .text          0x0000000000000620      0x1ca /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_mul_sf.o)
-                0x0000000000000620                __mulsf3
- .text          0x00000000000007ea      0x146 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_div_sf.o)
-                0x00000000000007ea                __divsf3
- .text          0x0000000000000930       0x5e /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_gt_sf.o)
-                0x0000000000000930                __gtsf2
- .text          0x000000000000098e       0x5e /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_ge_sf.o)
-                0x000000000000098e                __gesf2
- .text          0x00000000000009ec       0x5e /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_lt_sf.o)
-                0x00000000000009ec                __ltsf2
- .text          0x0000000000000a4a       0x5e /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_le_sf.o)
-                0x0000000000000a4a                __lesf2
- .text          0x0000000000000aa8       0x5a /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_unord_sf.o)
-                0x0000000000000aa8                __unordsf2
- .text          0x0000000000000b02       0xb8 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_si_to_sf.o)
-                0x0000000000000b02                __floatsisf
- .text          0x0000000000000bba       0x9e /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_sf_to_si.o)
-                0x0000000000000bba                __fixsfsi
- .text          0x0000000000000c58       0xec /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_usi_to_sf.o)
-                0x0000000000000c58                __floatunsisf
- .text          0x0000000000000d44      0x182 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_pack_sf.o)
-                0x0000000000000d44                __pack_f
- .text          0x0000000000000ec6       0xde /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_unpack_sf.o)
-                0x0000000000000ec6                __unpack_f
- .text          0x0000000000000fa4       0xc2 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fpcmp_parts_sf.o)
-                0x0000000000000fa4                __fpcmp_parts_f
-                0x0000000000001066                . = ALIGN (0x2)
+ .text          0x0000000000000380        0x4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
+                0x0000000000000380                __vector_38
+                0x0000000000000380                __vector_22
+                0x0000000000000380                __vector_28
+                0x0000000000000380                __vector_1
+                0x0000000000000380                __vector_32
+                0x0000000000000380                __vector_34
+                0x0000000000000380                __vector_24
+                0x0000000000000380                __vector_12
+                0x0000000000000380                __vector_46
+                0x0000000000000380                __bad_interrupt
+                0x0000000000000380                __vector_6
+                0x0000000000000380                __vector_31
+                0x0000000000000380                __vector_35
+                0x0000000000000380                __vector_39
+                0x0000000000000380                __vector_3
+                0x0000000000000380                __vector_30
+                0x0000000000000380                __vector_45
+                0x0000000000000380                __vector_11
+                0x0000000000000380                __vector_13
+                0x0000000000000380                __vector_17
+                0x0000000000000380                __vector_19
+                0x0000000000000380                __vector_56
+                0x0000000000000380                __vector_7
+                0x0000000000000380                __vector_49
+                0x0000000000000380                __vector_41
+                0x0000000000000380                __vector_43
+                0x0000000000000380                __vector_27
+                0x0000000000000380                __vector_5
+                0x0000000000000380                __vector_33
+                0x0000000000000380                __vector_47
+                0x0000000000000380                __vector_4
+                0x0000000000000380                __vector_44
+                0x0000000000000380                __vector_9
+                0x0000000000000380                __vector_2
+                0x0000000000000380                __vector_21
+                0x0000000000000380                __vector_15
+                0x0000000000000380                __vector_29
+                0x0000000000000380                __vector_40
+                0x0000000000000380                __vector_8
+                0x0000000000000380                __vector_48
+                0x0000000000000380                __vector_14
+                0x0000000000000380                __vector_53
+                0x0000000000000380                __vector_10
+                0x0000000000000380                __vector_50
+                0x0000000000000380                __vector_16
+                0x0000000000000380                __vector_18
+                0x0000000000000380                __vector_20
+                0x0000000000000380                __vector_42
+ .text          0x0000000000000384       0x5a /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fixunssfsi.o)
+                0x0000000000000384                __fixunssfsi
+ .text          0x00000000000003de      0x35c /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_addsub_sf.o)
+                0x0000000000000682                __addsf3
+                0x00000000000006da                __subsf3
+ .text          0x000000000000073a      0x1ca /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_mul_sf.o)
+                0x000000000000073a                __mulsf3
+ .text          0x0000000000000904      0x146 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_div_sf.o)
+                0x0000000000000904                __divsf3
+ .text          0x0000000000000a4a       0x5e /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_gt_sf.o)
+                0x0000000000000a4a                __gtsf2
+ .text          0x0000000000000aa8       0x5e /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_ge_sf.o)
+                0x0000000000000aa8                __gesf2
+ .text          0x0000000000000b06       0x5e /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_lt_sf.o)
+                0x0000000000000b06                __ltsf2
+ .text          0x0000000000000b64       0x5e /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_le_sf.o)
+                0x0000000000000b64                __lesf2
+ .text          0x0000000000000bc2       0x5a /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_unord_sf.o)
+                0x0000000000000bc2                __unordsf2
+ .text          0x0000000000000c1c       0xb8 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_si_to_sf.o)
+                0x0000000000000c1c                __floatsisf
+ .text          0x0000000000000cd4       0x9e /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_sf_to_si.o)
+                0x0000000000000cd4                __fixsfsi
+ .text          0x0000000000000d72       0xec /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_usi_to_sf.o)
+                0x0000000000000d72                __floatunsisf
+ .text          0x0000000000000e5e      0x182 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_pack_sf.o)
+                0x0000000000000e5e                __pack_f
+ .text          0x0000000000000fe0       0xde /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_unpack_sf.o)
+                0x0000000000000fe0                __unpack_f
+ .text          0x00000000000010be       0xc2 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_fpcmp_parts_sf.o)
+                0x00000000000010be                __fpcmp_parts_f
+                0x0000000000001180                . = ALIGN (0x2)
  *(.text.*)
  .text._ZN8SPIClass5beginEv
-                0x0000000000001066       0x2c ./library/SPI/SPI.o
-                0x0000000000001066                _ZN8SPIClass5beginEv
+                0x0000000000001180       0x2c ./library/SPI/SPI.o
+                0x0000000000001180                _ZN8SPIClass5beginEv
+ .text._ZN7OneWire5resetEv
+                0x00000000000011ac       0x84 ./library/OneWire/OneWire.o
+                0x00000000000011ac                _ZN7OneWire5resetEv
+ .text._ZN7OneWire9write_bitEh
+                0x0000000000001230       0x58 ./library/OneWire/OneWire.o
+                0x0000000000001230                _ZN7OneWire9write_bitEh
+ .text._ZN7OneWire8read_bitEv
+                0x0000000000001288       0x56 ./library/OneWire/OneWire.o
+                0x0000000000001288                _ZN7OneWire8read_bitEv
+ .text._ZN7OneWire5writeEhh
+                0x00000000000012de       0x84 ./library/OneWire/OneWire.o
+                0x00000000000012de                _ZN7OneWire5writeEhh
+ .text._ZN7OneWire4readEv
+                0x0000000000001362       0x38 ./library/OneWire/OneWire.o
+                0x0000000000001362                _ZN7OneWire4readEv
+ .text._ZN7OneWire6selectEPh
+                0x000000000000139a       0x5a ./library/OneWire/OneWire.o
+                0x000000000000139a                _ZN7OneWire6selectEPh
+ .text._ZN7OneWire12reset_searchEv
+                0x00000000000013f4       0x1a ./library/OneWire/OneWire.o
+                0x00000000000013f4                _ZN7OneWire12reset_searchEv
+ .text._ZN7OneWireC2Eh
+                0x000000000000140e       0x46 ./library/OneWire/OneWire.o
+                0x000000000000140e                _ZN7OneWireC2Eh
+                0x000000000000140e                _ZN7OneWireC1Eh
+ .text._ZN7OneWire6searchEPh
+                0x0000000000001454      0x114 ./library/OneWire/OneWire.o
+                0x0000000000001454                _ZN7OneWire6searchEPh
+ .text._ZN7OneWire4crc8EPhh
+                0x0000000000001568       0x18 ./library/OneWire/OneWire.o
+                0x0000000000001568                _ZN7OneWire4crc8EPhh
  .text._ZN10HttpClient9availableEv
-                0x0000000000001092       0x18 ./library/HttpClient/HttpClient.o
-                0x0000000000001092                _ZN10HttpClient9availableEv
+                0x0000000000001580       0x18 ./library/HttpClient/HttpClient.o
+                0x0000000000001580                _ZN10HttpClient9availableEv
  .text._ZN10HttpClient4peekEv
-                0x00000000000010aa       0x18 ./library/HttpClient/HttpClient.o
-                0x00000000000010aa                _ZN10HttpClient4peekEv
+                0x0000000000001598       0x18 ./library/HttpClient/HttpClient.o
+                0x0000000000001598                _ZN10HttpClient4peekEv
  .text._ZN10HttpClient5flushEv
-                0x00000000000010c2       0x18 ./library/HttpClient/HttpClient.o
-                0x00000000000010c2                _ZN10HttpClient5flushEv
+                0x00000000000015b0       0x18 ./library/HttpClient/HttpClient.o
+                0x00000000000015b0                _ZN10HttpClient5flushEv
  .text._ZN10HttpClient7connectE9IPAddressj
-                0x00000000000010da       0x62 ./library/HttpClient/HttpClient.o
-                0x00000000000010da                _ZN10HttpClient7connectE9IPAddressj
+                0x00000000000015c8       0x62 ./library/HttpClient/HttpClient.o
+                0x00000000000015c8                _ZN10HttpClient7connectE9IPAddressj
  .text._ZN10HttpClient7connectEPKcj
-                0x000000000000113c       0x18 ./library/HttpClient/HttpClient.o
-                0x000000000000113c                _ZN10HttpClient7connectEPKcj
+                0x000000000000162a       0x18 ./library/HttpClient/HttpClient.o
+                0x000000000000162a                _ZN10HttpClient7connectEPKcj
  .text._ZN10HttpClient9connectedEv
-                0x0000000000001154       0x18 ./library/HttpClient/HttpClient.o
-                0x0000000000001154                _ZN10HttpClient9connectedEv
+                0x0000000000001642       0x18 ./library/HttpClient/HttpClient.o
+                0x0000000000001642                _ZN10HttpClient9connectedEv
  .text._ZN10HttpClientcvbEv
-                0x000000000000116c       0x12 ./library/HttpClient/HttpClient.o
-                0x000000000000116c                _ZN10HttpClientcvbEv
+                0x000000000000165a       0x12 ./library/HttpClient/HttpClient.o
+                0x000000000000165a                _ZN10HttpClientcvbEv
  .text._ZN10HttpClient4readEv
-                0x000000000000117e       0x42 ./library/HttpClient/HttpClient.o
-                0x000000000000117e                _ZN10HttpClient4readEv
+                0x000000000000166c       0x42 ./library/HttpClient/HttpClient.o
+                0x000000000000166c                _ZN10HttpClient4readEv
  .text._ZN10HttpClient4readEPhj
-                0x00000000000011c0       0x48 ./library/HttpClient/HttpClient.o
-                0x00000000000011c0                _ZN10HttpClient4readEPhj
+                0x00000000000016ae       0x48 ./library/HttpClient/HttpClient.o
+                0x00000000000016ae                _ZN10HttpClient4readEPhj
  .text._ZN10HttpClient10resetStateEv
-                0x0000000000001208       0x18 ./library/HttpClient/HttpClient.o
-                0x0000000000001208                _ZN10HttpClient10resetStateEv
+                0x00000000000016f6       0x18 ./library/HttpClient/HttpClient.o
+                0x00000000000016f6                _ZN10HttpClient10resetStateEv
  .text._ZN10HttpClient4stopEv
-                0x0000000000001220       0x22 ./library/HttpClient/HttpClient.o
-                0x0000000000001220                _ZN10HttpClient4stopEv
+                0x000000000000170e       0x22 ./library/HttpClient/HttpClient.o
+                0x000000000000170e                _ZN10HttpClient4stopEv
  .text._ZN10HttpClientC2ER6Client
-                0x0000000000001242       0x3e ./library/HttpClient/HttpClient.o
-                0x0000000000001242                _ZN10HttpClientC1ER6Client
-                0x0000000000001242                _ZN10HttpClientC2ER6Client
+                0x0000000000001730       0x3e ./library/HttpClient/HttpClient.o
+                0x0000000000001730                _ZN10HttpClientC1ER6Client
+                0x0000000000001730                _ZN10HttpClientC2ER6Client
  .text._ZN10HttpClient12beginRequestEv
-                0x0000000000001280        0xc ./library/HttpClient/HttpClient.o
-                0x0000000000001280                _ZN10HttpClient12beginRequestEv
+                0x000000000000176e        0xc ./library/HttpClient/HttpClient.o
+                0x000000000000176e                _ZN10HttpClient12beginRequestEv
  .text._ZN10HttpClient18sendInitialHeadersEPKc9IPAddressjS1_S1_S1_
-                0x000000000000128c      0x134 ./library/HttpClient/HttpClient.o
-                0x000000000000128c                _ZN10HttpClient18sendInitialHeadersEPKc9IPAddressjS1_S1_S1_
+                0x000000000000177a      0x134 ./library/HttpClient/HttpClient.o
+                0x000000000000177a                _ZN10HttpClient18sendInitialHeadersEPKc9IPAddressjS1_S1_S1_
  .text._ZN10HttpClient10sendHeaderEPKcS1_
-                0x00000000000013c0       0x32 ./library/HttpClient/HttpClient.o
-                0x00000000000013c0                _ZN10HttpClient10sendHeaderEPKcS1_
+                0x00000000000018ae       0x32 ./library/HttpClient/HttpClient.o
+                0x00000000000018ae                _ZN10HttpClient10sendHeaderEPKcS1_
  .text._ZN10HttpClient10sendHeaderEPKci
-                0x00000000000013f2       0x36 ./library/HttpClient/HttpClient.o
-                0x00000000000013f2                _ZN10HttpClient10sendHeaderEPKci
+                0x00000000000018e0       0x36 ./library/HttpClient/HttpClient.o
+                0x00000000000018e0                _ZN10HttpClient10sendHeaderEPKci
  .text._ZN10HttpClient13finishHeadersEv
-                0x0000000000001428       0x1c ./library/HttpClient/HttpClient.o
-                0x0000000000001428                _ZN10HttpClient13finishHeadersEv
+                0x0000000000001916       0x1c ./library/HttpClient/HttpClient.o
+                0x0000000000001916                _ZN10HttpClient13finishHeadersEv
  .text._ZN10HttpClient12startRequestEPKcjS1_S1_S1_
-                0x0000000000001444      0x128 ./library/HttpClient/HttpClient.o
-                0x0000000000001444                _ZN10HttpClient12startRequestEPKcjS1_S1_S1_
+                0x0000000000001932      0x128 ./library/HttpClient/HttpClient.o
+                0x0000000000001932                _ZN10HttpClient12startRequestEPKcjS1_S1_S1_
  .text._ZN10HttpClient5writeEPKhj
-                0x000000000000156c       0x5a ./library/HttpClient/HttpClient.o
-                0x000000000000156c                _ZN10HttpClient5writeEPKhj
+                0x0000000000001a5a       0x5a ./library/HttpClient/HttpClient.o
+                0x0000000000001a5a                _ZN10HttpClient5writeEPKhj
  .text._ZN10HttpClient5writeEh
-                0x00000000000015c6       0x46 ./library/HttpClient/HttpClient.o
-                0x00000000000015c6                _ZN10HttpClient5writeEh
+                0x0000000000001ab4       0x46 ./library/HttpClient/HttpClient.o
+                0x0000000000001ab4                _ZN10HttpClient5writeEh
  .text._ZN10HttpClient10endRequestEv
-                0x000000000000160c       0x12 ./library/HttpClient/HttpClient.o
-                0x000000000000160c                _ZN10HttpClient10endRequestEv
+                0x0000000000001afa       0x12 ./library/HttpClient/HttpClient.o
+                0x0000000000001afa                _ZN10HttpClient10endRequestEv
  .text._ZN10HttpClient18responseStatusCodeEv
-                0x000000000000161e      0x18a ./library/HttpClient/HttpClient.o
-                0x000000000000161e                _ZN10HttpClient18responseStatusCodeEv
+                0x0000000000001b0c      0x18a ./library/HttpClient/HttpClient.o
+                0x0000000000001b0c                _ZN10HttpClient18responseStatusCodeEv
  .text._ZN10HttpClient16endOfBodyReachedEv
-                0x00000000000017a8       0x28 ./library/HttpClient/HttpClient.o
-                0x00000000000017a8                _ZN10HttpClient16endOfBodyReachedEv
+                0x0000000000001c96       0x28 ./library/HttpClient/HttpClient.o
+                0x0000000000001c96                _ZN10HttpClient16endOfBodyReachedEv
  .text._ZN10HttpClient9completedEv
-                0x00000000000017d0        0x4 ./library/HttpClient/HttpClient.o
-                0x00000000000017d0                _ZN10HttpClient9completedEv
+                0x0000000000001cbe        0x4 ./library/HttpClient/HttpClient.o
+                0x0000000000001cbe                _ZN10HttpClient9completedEv
  .text._ZN10HttpClient11endOfStreamEv
-                0x00000000000017d4        0x4 ./library/HttpClient/HttpClient.o
-                0x00000000000017d4                _ZN10HttpClient11endOfStreamEv
+                0x0000000000001cc2        0x4 ./library/HttpClient/HttpClient.o
+                0x0000000000001cc2                _ZN10HttpClient11endOfStreamEv
  .text.startup._GLOBAL__sub_I__ZN10HttpClient10kUserAgentE
-                0x00000000000017d8       0x16 ./library/HttpClient/HttpClient.o
+                0x0000000000001cc6       0x16 ./library/HttpClient/HttpClient.o
  .text._ZN10W5100Class11writeSnDIPREhPh
-                0x00000000000017ee       0x12 ./library/Ethernet/utility/socket.o
-                0x00000000000017ee                _ZN10W5100Class11writeSnDIPREhPh
+                0x0000000000001cdc       0x12 ./library/Ethernet/utility/socket.o
+                0x0000000000001cdc                _ZN10W5100Class11writeSnDIPREhPh
  .text._ZN10W5100Class6readSnEhj
-                0x0000000000001800       0x10 ./library/Ethernet/utility/socket.o
-                0x0000000000001800                _ZN10W5100Class6readSnEhj
+                0x0000000000001cee       0x10 ./library/Ethernet/utility/socket.o
+                0x0000000000001cee                _ZN10W5100Class6readSnEhj
  .text._ZN10W5100Class8readSnIREh
-                0x0000000000001810        0x8 ./library/Ethernet/utility/socket.o
-                0x0000000000001810                _ZN10W5100Class8readSnIREh
+                0x0000000000001cfe        0x8 ./library/Ethernet/utility/socket.o
+                0x0000000000001cfe                _ZN10W5100Class8readSnIREh
  .text._ZN10W5100Class7writeSnEhjh
-                0x0000000000001818       0x14 ./library/Ethernet/utility/socket.o
-                0x0000000000001818                _ZN10W5100Class7writeSnEhjh
+                0x0000000000001d06       0x14 ./library/Ethernet/utility/socket.o
+                0x0000000000001d06                _ZN10W5100Class7writeSnEhjh
  .text._ZN10W5100Class9writeSnIREhh
-                0x000000000000182c        0xa ./library/Ethernet/utility/socket.o
-                0x000000000000182c                _ZN10W5100Class9writeSnIREhh
+                0x0000000000001d1a        0xa ./library/Ethernet/utility/socket.o
+                0x0000000000001d1a                _ZN10W5100Class9writeSnIREhh
  .text._ZN10W5100Class12writeSnDPORTEhj
-                0x0000000000001836       0x22 ./library/Ethernet/utility/socket.o
-                0x0000000000001836                _ZN10W5100Class12writeSnDPORTEhj
+                0x0000000000001d24       0x22 ./library/Ethernet/utility/socket.o
+                0x0000000000001d24                _ZN10W5100Class12writeSnDPORTEhj
  .text._ZN10W5100Class11writeSnPORTEhj
-                0x0000000000001858       0x22 ./library/Ethernet/utility/socket.o
-                0x0000000000001858                _ZN10W5100Class11writeSnPORTEhj
+                0x0000000000001d46       0x22 ./library/Ethernet/utility/socket.o
+                0x0000000000001d46                _ZN10W5100Class11writeSnPORTEhj
  .text._Z5closeh
-                0x000000000000187a       0x1c ./library/Ethernet/utility/socket.o
-                0x000000000000187a                _Z5closeh
+                0x0000000000001d68       0x1c ./library/Ethernet/utility/socket.o
+                0x0000000000001d68                _Z5closeh
  .text._Z6sockethhjh
-                0x0000000000001896       0x84 ./library/Ethernet/utility/socket.o
-                0x0000000000001896                _Z6sockethhjh
+                0x0000000000001d84       0x84 ./library/Ethernet/utility/socket.o
+                0x0000000000001d84                _Z6sockethhjh
  .text._Z7connecthPhj
-                0x000000000000191a       0x6c ./library/Ethernet/utility/socket.o
-                0x000000000000191a                _Z7connecthPhj
+                0x0000000000001e08       0x6c ./library/Ethernet/utility/socket.o
+                0x0000000000001e08                _Z7connecthPhj
  .text._Z10disconnecth
-                0x0000000000001986        0xe ./library/Ethernet/utility/socket.o
-                0x0000000000001986                _Z10disconnecth
+                0x0000000000001e74        0xe ./library/Ethernet/utility/socket.o
+                0x0000000000001e74                _Z10disconnecth
  .text._Z4sendhPKhj
-                0x0000000000001994       0xa6 ./library/Ethernet/utility/socket.o
-                0x0000000000001994                _Z4sendhPKhj
+                0x0000000000001e82       0xa6 ./library/Ethernet/utility/socket.o
+                0x0000000000001e82                _Z4sendhPKhj
  .text._Z4recvhPhi
-                0x0000000000001a3a       0x7e ./library/Ethernet/utility/socket.o
-                0x0000000000001a3a                _Z4recvhPhi
+                0x0000000000001f28       0x7e ./library/Ethernet/utility/socket.o
+                0x0000000000001f28                _Z4recvhPhi
  .text._Z4peekhPh
-                0x0000000000001ab8       0x1c ./library/Ethernet/utility/socket.o
-                0x0000000000001ab8                _Z4peekhPh
+                0x0000000000001fa6       0x1c ./library/Ethernet/utility/socket.o
+                0x0000000000001fa6                _Z4peekhPh
  .text._Z10bufferDatahjPKhj
-                0x0000000000001ad4       0x6c ./library/Ethernet/utility/socket.o
-                0x0000000000001ad4                _Z10bufferDatahjPKhj
+                0x0000000000001fc2       0x6c ./library/Ethernet/utility/socket.o
+                0x0000000000001fc2                _Z10bufferDatahjPKhj
  .text._Z8startUDPhPhj
-                0x0000000000001b40       0x4c ./library/Ethernet/utility/socket.o
-                0x0000000000001b40                _Z8startUDPhPhj
+                0x000000000000202e       0x4c ./library/Ethernet/utility/socket.o
+                0x000000000000202e                _Z8startUDPhPhj
  .text._Z7sendUDPh
-                0x0000000000001b8c       0x48 ./library/Ethernet/utility/socket.o
-                0x0000000000001b8c                _Z7sendUDPh
+                0x000000000000207a       0x48 ./library/Ethernet/utility/socket.o
+                0x000000000000207a                _Z7sendUDPh
  .text._ZN8SPIClass8transferEh
-                0x0000000000001bd4        0xc ./library/Ethernet/utility/w5100.o
-                0x0000000000001bd4                _ZN8SPIClass8transferEh
+                0x00000000000020c2        0xc ./library/Ethernet/utility/w5100.o
+                0x00000000000020c2                _ZN8SPIClass8transferEh
  .text._ZN10W5100Class5setSSEv
-                0x0000000000001be0        0x4 ./library/Ethernet/utility/w5100.o
-                0x0000000000001be0                _ZN10W5100Class5setSSEv
+                0x00000000000020ce        0x4 ./library/Ethernet/utility/w5100.o
+                0x00000000000020ce                _ZN10W5100Class5setSSEv
  .text._ZN10W5100Class7resetSSEv
-                0x0000000000001be4        0x4 ./library/Ethernet/utility/w5100.o
-                0x0000000000001be4                _ZN10W5100Class7resetSSEv
+                0x00000000000020d2        0x4 ./library/Ethernet/utility/w5100.o
+                0x00000000000020d2                _ZN10W5100Class7resetSSEv
  .text._ZN10W5100Class5writeEjh
-                0x0000000000001be8       0x46 ./library/Ethernet/utility/w5100.o
-                0x0000000000001be8                _ZN10W5100Class5writeEjh
+                0x00000000000020d6       0x46 ./library/Ethernet/utility/w5100.o
+                0x00000000000020d6                _ZN10W5100Class5writeEjh
  .text._ZN10W5100Class4initEv
-                0x0000000000001c2e       0x7c ./library/Ethernet/utility/w5100.o
-                0x0000000000001c2e                _ZN10W5100Class4initEv
+                0x000000000000211c       0x7c ./library/Ethernet/utility/w5100.o
+                0x000000000000211c                _ZN10W5100Class4initEv
  .text._ZN10W5100Class5writeEjPKhj
-                0x0000000000001caa       0x5e ./library/Ethernet/utility/w5100.o
-                0x0000000000001caa                _ZN10W5100Class5writeEjPKhj
+                0x0000000000002198       0x5e ./library/Ethernet/utility/w5100.o
+                0x0000000000002198                _ZN10W5100Class5writeEjPKhj
  .text._ZN10W5100Class4readEj
-                0x0000000000001d08       0x40 ./library/Ethernet/utility/w5100.o
-                0x0000000000001d08                _ZN10W5100Class4readEj
+                0x00000000000021f6       0x40 ./library/Ethernet/utility/w5100.o
+                0x00000000000021f6                _ZN10W5100Class4readEj
  .text._ZN10W5100Class27send_data_processing_offsetEhjPKhj
-                0x0000000000001d48       0xc4 ./library/Ethernet/utility/w5100.o
-                0x0000000000001d48                _ZN10W5100Class27send_data_processing_offsetEhjPKhj
+                0x0000000000002236       0xc4 ./library/Ethernet/utility/w5100.o
+                0x0000000000002236                _ZN10W5100Class27send_data_processing_offsetEhjPKhj
  .text._ZN10W5100Class20send_data_processingEhPKhj
-                0x0000000000001e0c       0x16 ./library/Ethernet/utility/w5100.o
-                0x0000000000001e0c                _ZN10W5100Class20send_data_processingEhPKhj
+                0x00000000000022fa       0x16 ./library/Ethernet/utility/w5100.o
+                0x00000000000022fa                _ZN10W5100Class20send_data_processingEhPKhj
  .text._ZN10W5100Class12readSnRX_RSREh
-                0x0000000000001e22       0x28 ./library/Ethernet/utility/w5100.o
-                0x0000000000001e22                _ZN10W5100Class12readSnRX_RSREh
+                0x0000000000002310       0x28 ./library/Ethernet/utility/w5100.o
+                0x0000000000002310                _ZN10W5100Class12readSnRX_RSREh
  .text._ZN10W5100Class17getRXReceivedSizeEh
-                0x0000000000001e4a       0x38 ./library/Ethernet/utility/w5100.o
-                0x0000000000001e4a                _ZN10W5100Class17getRXReceivedSizeEh
+                0x0000000000002338       0x38 ./library/Ethernet/utility/w5100.o
+                0x0000000000002338                _ZN10W5100Class17getRXReceivedSizeEh
  .text._ZN10W5100Class12readSnTX_FSREh
-                0x0000000000001e82       0x28 ./library/Ethernet/utility/w5100.o
-                0x0000000000001e82                _ZN10W5100Class12readSnTX_FSREh
+                0x0000000000002370       0x28 ./library/Ethernet/utility/w5100.o
+                0x0000000000002370                _ZN10W5100Class12readSnTX_FSREh
  .text._ZN10W5100Class13getTXFreeSizeEh
-                0x0000000000001eaa       0x38 ./library/Ethernet/utility/w5100.o
-                0x0000000000001eaa                _ZN10W5100Class13getTXFreeSizeEh
+                0x0000000000002398       0x38 ./library/Ethernet/utility/w5100.o
+                0x0000000000002398                _ZN10W5100Class13getTXFreeSizeEh
  .text._ZN10W5100Class4readEjPhj
-                0x0000000000001ee2       0x60 ./library/Ethernet/utility/w5100.o
-                0x0000000000001ee2                _ZN10W5100Class4readEjPhj
+                0x00000000000023d0       0x60 ./library/Ethernet/utility/w5100.o
+                0x00000000000023d0                _ZN10W5100Class4readEjPhj
  .text._ZN10W5100Class9read_dataEhPVhS1_j
-                0x0000000000001f42       0x78 ./library/Ethernet/utility/w5100.o
-                0x0000000000001f42                _ZN10W5100Class9read_dataEhPVhS1_j
+                0x0000000000002430       0x78 ./library/Ethernet/utility/w5100.o
+                0x0000000000002430                _ZN10W5100Class9read_dataEhPVhS1_j
  .text._ZN10W5100Class20recv_data_processingEhPhjh
-                0x0000000000001fba       0xa0 ./library/Ethernet/utility/w5100.o
-                0x0000000000001fba                _ZN10W5100Class20recv_data_processingEhPhjh
+                0x00000000000024a8       0xa0 ./library/Ethernet/utility/w5100.o
+                0x00000000000024a8                _ZN10W5100Class20recv_data_processingEhPhjh
  .text._ZN10W5100Class9execCmdSnEh7SockCMD
-                0x000000000000205a       0x20 ./library/Ethernet/utility/w5100.o
-                0x000000000000205a                _ZN10W5100Class9execCmdSnEh7SockCMD
+                0x0000000000002548       0x20 ./library/Ethernet/utility/w5100.o
+                0x0000000000002548                _ZN10W5100Class9execCmdSnEh7SockCMD
  .text._ZN9DhcpClass16reset_DHCP_leaseEv
-                0x000000000000207a       0x10 ./library/Ethernet/Dhcp.o
-                0x000000000000207a                _ZN9DhcpClass16reset_DHCP_leaseEv
+                0x0000000000002568       0x10 ./library/Ethernet/Dhcp.o
+                0x0000000000002568                _ZN9DhcpClass16reset_DHCP_leaseEv
  .text._ZN9DhcpClass17parseDHCPResponseEmRm
-                0x000000000000208a      0x3c4 ./library/Ethernet/Dhcp.o
-                0x000000000000208a                _ZN9DhcpClass17parseDHCPResponseEmRm
+                0x0000000000002578      0x3c4 ./library/Ethernet/Dhcp.o
+                0x0000000000002578                _ZN9DhcpClass17parseDHCPResponseEmRm
  .text._ZN9DhcpClass10getLocalIpEv
-                0x000000000000244e       0x16 ./library/Ethernet/Dhcp.o
-                0x000000000000244e                _ZN9DhcpClass10getLocalIpEv
+                0x000000000000293c       0x16 ./library/Ethernet/Dhcp.o
+                0x000000000000293c                _ZN9DhcpClass10getLocalIpEv
  .text._ZN9DhcpClass13getSubnetMaskEv
-                0x0000000000002464       0x16 ./library/Ethernet/Dhcp.o
-                0x0000000000002464                _ZN9DhcpClass13getSubnetMaskEv
+                0x0000000000002952       0x16 ./library/Ethernet/Dhcp.o
+                0x0000000000002952                _ZN9DhcpClass13getSubnetMaskEv
  .text._ZN9DhcpClass12getGatewayIpEv
-                0x000000000000247a       0x16 ./library/Ethernet/Dhcp.o
-                0x000000000000247a                _ZN9DhcpClass12getGatewayIpEv
+                0x0000000000002968       0x16 ./library/Ethernet/Dhcp.o
+                0x0000000000002968                _ZN9DhcpClass12getGatewayIpEv
  .text._ZN9DhcpClass14getDnsServerIpEv
-                0x0000000000002490       0x16 ./library/Ethernet/Dhcp.o
-                0x0000000000002490                _ZN9DhcpClass14getDnsServerIpEv
+                0x000000000000297e       0x16 ./library/Ethernet/Dhcp.o
+                0x000000000000297e                _ZN9DhcpClass14getDnsServerIpEv
  .text._ZN9DhcpClass9printByteEPch
-                0x00000000000024a6       0x2a ./library/Ethernet/Dhcp.o
-                0x00000000000024a6                _ZN9DhcpClass9printByteEPch
+                0x0000000000002994       0x2a ./library/Ethernet/Dhcp.o
+                0x0000000000002994                _ZN9DhcpClass9printByteEPch
  .text._ZN9DhcpClass17send_DHCP_MESSAGEEhj
-                0x00000000000024d0      0x240 ./library/Ethernet/Dhcp.o
-                0x00000000000024d0                _ZN9DhcpClass17send_DHCP_MESSAGEEhj
+                0x00000000000029be      0x240 ./library/Ethernet/Dhcp.o
+                0x00000000000029be                _ZN9DhcpClass17send_DHCP_MESSAGEEhj
  .text._ZN9DhcpClass18request_DHCP_leaseEv
-                0x0000000000002710      0x300 ./library/Ethernet/Dhcp.o
-                0x0000000000002710                _ZN9DhcpClass18request_DHCP_leaseEv
+                0x0000000000002bfe      0x300 ./library/Ethernet/Dhcp.o
+                0x0000000000002bfe                _ZN9DhcpClass18request_DHCP_leaseEv
  .text._ZN9DhcpClass13beginWithDHCPEPhmm
-                0x0000000000002a10       0x8a ./library/Ethernet/Dhcp.o
-                0x0000000000002a10                _ZN9DhcpClass13beginWithDHCPEPhmm
+                0x0000000000002efe       0x8a ./library/Ethernet/Dhcp.o
+                0x0000000000002efe                _ZN9DhcpClass13beginWithDHCPEPhmm
  .text.startup._GLOBAL__sub_I__ZN9DhcpClass13beginWithDHCPEPhmm
-                0x0000000000002a9a       0x16 ./library/Ethernet/Dhcp.o
+                0x0000000000002f88       0x16 ./library/Ethernet/Dhcp.o
  .text._ZN9DNSClient5beginERK9IPAddress
-                0x0000000000002ab0       0x1a ./library/Ethernet/Dns.o
-                0x0000000000002ab0                _ZN9DNSClient5beginERK9IPAddress
+                0x0000000000002f9e       0x1a ./library/Ethernet/Dns.o
+                0x0000000000002f9e                _ZN9DNSClient5beginERK9IPAddress
  .text._ZN9DNSClient9inet_atonEPKcR9IPAddress
-                0x0000000000002aca       0x8a ./library/Ethernet/Dns.o
-                0x0000000000002aca                _ZN9DNSClient9inet_atonEPKcR9IPAddress
+                0x0000000000002fb8       0x8a ./library/Ethernet/Dns.o
+                0x0000000000002fb8                _ZN9DNSClient9inet_atonEPKcR9IPAddress
  .text._ZN9DNSClient12BuildRequestEPKc
-                0x0000000000002b54      0x152 ./library/Ethernet/Dns.o
-                0x0000000000002b54                _ZN9DNSClient12BuildRequestEPKc
+                0x0000000000003042      0x152 ./library/Ethernet/Dns.o
+                0x0000000000003042                _ZN9DNSClient12BuildRequestEPKc
  .text._ZN9DNSClient15ProcessResponseEjR9IPAddress
-                0x0000000000002ca6      0x2d4 ./library/Ethernet/Dns.o
-                0x0000000000002ca6                _ZN9DNSClient15ProcessResponseEjR9IPAddress
+                0x0000000000003194      0x2d4 ./library/Ethernet/Dns.o
+                0x0000000000003194                _ZN9DNSClient15ProcessResponseEjR9IPAddress
  .text._ZN9DNSClient13getHostByNameEPKcR9IPAddress
-                0x0000000000002f7a      0x132 ./library/Ethernet/Dns.o
-                0x0000000000002f7a                _ZN9DNSClient13getHostByNameEPKcR9IPAddress
+                0x0000000000003468      0x132 ./library/Ethernet/Dns.o
+                0x0000000000003468                _ZN9DNSClient13getHostByNameEPKcR9IPAddress
  .text.startup._GLOBAL__sub_I__ZN9DNSClient5beginERK9IPAddress
-                0x00000000000030ac       0x16 ./library/Ethernet/Dns.o
+                0x000000000000359a       0x16 ./library/Ethernet/Dns.o
  .text._ZN10W5100Class8writeGAREPh
-                0x00000000000030c2        0xe ./library/Ethernet/Ethernet.o
-                0x00000000000030c2                _ZN10W5100Class8writeGAREPh
+                0x00000000000035b0        0xe ./library/Ethernet/Ethernet.o
+                0x00000000000035b0                _ZN10W5100Class8writeGAREPh
  .text._ZN10W5100Class9writeSUBREPh
-                0x00000000000030d0        0xe ./library/Ethernet/Ethernet.o
-                0x00000000000030d0                _ZN10W5100Class9writeSUBREPh
+                0x00000000000035be        0xe ./library/Ethernet/Ethernet.o
+                0x00000000000035be                _ZN10W5100Class9writeSUBREPh
  .text._ZN10W5100Class9writeSIPREPh
-                0x00000000000030de        0xe ./library/Ethernet/Ethernet.o
-                0x00000000000030de                _ZN10W5100Class9writeSIPREPh
+                0x00000000000035cc        0xe ./library/Ethernet/Ethernet.o
+                0x00000000000035cc                _ZN10W5100Class9writeSIPREPh
  .text._ZN13EthernetClass5beginEPh
-                0x00000000000030ec      0x120 ./library/Ethernet/Ethernet.o
-                0x00000000000030ec                _ZN13EthernetClass5beginEPh
+                0x00000000000035da      0x120 ./library/Ethernet/Ethernet.o
+                0x00000000000035da                _ZN13EthernetClass5beginEPh
  .text._ZN13EthernetClass11dnsServerIPEv
-                0x000000000000320c       0x20 ./library/Ethernet/Ethernet.o
-                0x000000000000320c                _ZN13EthernetClass11dnsServerIPEv
+                0x00000000000036fa       0x20 ./library/Ethernet/Ethernet.o
+                0x00000000000036fa                _ZN13EthernetClass11dnsServerIPEv
  .text.startup._GLOBAL__sub_I__ZN13EthernetClass6_stateE
-                0x000000000000322c       0x1c ./library/Ethernet/Ethernet.o
+                0x000000000000371a       0x1c ./library/Ethernet/Ethernet.o
  .text._ZN14EthernetClient5writeEh
-                0x0000000000003248       0x2c ./library/Ethernet/EthernetClient.o
-                0x0000000000003248                _ZN14EthernetClient5writeEh
+                0x0000000000003736       0x2c ./library/Ethernet/EthernetClient.o
+                0x0000000000003736                _ZN14EthernetClient5writeEh
  .text._ZN14EthernetClient5flushEv
-                0x0000000000003274       0x2e ./library/Ethernet/EthernetClient.o
-                0x0000000000003274                _ZN14EthernetClient5flushEv
+                0x0000000000003762       0x2e ./library/Ethernet/EthernetClient.o
+                0x0000000000003762                _ZN14EthernetClient5flushEv
  .text._ZN14EthernetClientcvbEv
-                0x00000000000032a2       0x10 ./library/Ethernet/EthernetClient.o
-                0x00000000000032a2                _ZN14EthernetClientcvbEv
+                0x0000000000003790       0x10 ./library/Ethernet/EthernetClient.o
+                0x0000000000003790                _ZN14EthernetClientcvbEv
  .text._ZN14EthernetClient4peekEv
-                0x00000000000032b2       0x48 ./library/Ethernet/EthernetClient.o
-                0x00000000000032b2                _ZN14EthernetClient4peekEv
+                0x00000000000037a0       0x48 ./library/Ethernet/EthernetClient.o
+                0x00000000000037a0                _ZN14EthernetClient4peekEv
  .text._ZN14EthernetClient4readEPhj
-                0x00000000000032fa        0x8 ./library/Ethernet/EthernetClient.o
-                0x00000000000032fa                _ZN14EthernetClient4readEPhj
+                0x00000000000037e8        0x8 ./library/Ethernet/EthernetClient.o
+                0x00000000000037e8                _ZN14EthernetClient4readEPhj
  .text._ZN14EthernetClient4readEv
-                0x0000000000003302       0x36 ./library/Ethernet/EthernetClient.o
-                0x0000000000003302                _ZN14EthernetClient4readEv
+                0x00000000000037f0       0x36 ./library/Ethernet/EthernetClient.o
+                0x00000000000037f0                _ZN14EthernetClient4readEv
  .text._ZN14EthernetClient9availableEv
-                0x0000000000003338       0x16 ./library/Ethernet/EthernetClient.o
-                0x0000000000003338                _ZN14EthernetClient9availableEv
+                0x0000000000003826       0x16 ./library/Ethernet/EthernetClient.o
+                0x0000000000003826                _ZN14EthernetClient9availableEv
  .text._ZN14EthernetClient5writeEPKhj
-                0x000000000000334e       0x3c ./library/Ethernet/EthernetClient.o
-                0x000000000000334e                _ZN14EthernetClient5writeEPKhj
+                0x000000000000383c       0x3c ./library/Ethernet/EthernetClient.o
+                0x000000000000383c                _ZN14EthernetClient5writeEPKhj
  .text._ZN14EthernetClient7connectEPKcj
-                0x000000000000338a       0xc2 ./library/Ethernet/EthernetClient.o
-                0x000000000000338a                _ZN14EthernetClient7connectEPKcj
+                0x0000000000003878       0xc2 ./library/Ethernet/EthernetClient.o
+                0x0000000000003878                _ZN14EthernetClient7connectEPKcj
  .text._ZN14EthernetClientC2Ev
-                0x000000000000344c       0x24 ./library/Ethernet/EthernetClient.o
-                0x000000000000344c                _ZN14EthernetClientC1Ev
-                0x000000000000344c                _ZN14EthernetClientC2Ev
+                0x000000000000393a       0x24 ./library/Ethernet/EthernetClient.o
+                0x000000000000393a                _ZN14EthernetClientC1Ev
+                0x000000000000393a                _ZN14EthernetClientC2Ev
  .text._ZN14EthernetClient6statusEv
-                0x0000000000003470       0x1a ./library/Ethernet/EthernetClient.o
-                0x0000000000003470                _ZN14EthernetClient6statusEv
+                0x000000000000395e       0x1a ./library/Ethernet/EthernetClient.o
+                0x000000000000395e                _ZN14EthernetClient6statusEv
  .text._ZN14EthernetClient9connectedEv
-                0x000000000000348a       0x48 ./library/Ethernet/EthernetClient.o
-                0x000000000000348a                _ZN14EthernetClient9connectedEv
+                0x0000000000003978       0x48 ./library/Ethernet/EthernetClient.o
+                0x0000000000003978                _ZN14EthernetClient9connectedEv
  .text._ZN14EthernetClient4stopEv
-                0x00000000000034d2       0x86 ./library/Ethernet/EthernetClient.o
-                0x00000000000034d2                _ZN14EthernetClient4stopEv
+                0x00000000000039c0       0x86 ./library/Ethernet/EthernetClient.o
+                0x00000000000039c0                _ZN14EthernetClient4stopEv
  .text._ZN14EthernetClient7connectE9IPAddressj
-                0x0000000000003558       0xda ./library/Ethernet/EthernetClient.o
-                0x0000000000003558                _ZN14EthernetClient7connectE9IPAddressj
+                0x0000000000003a46       0xda ./library/Ethernet/EthernetClient.o
+                0x0000000000003a46                _ZN14EthernetClient7connectE9IPAddressj
  .text.startup._GLOBAL__sub_I__ZN14EthernetClient8_srcportE
-                0x0000000000003632       0x16 ./library/Ethernet/EthernetClient.o
+                0x0000000000003b20       0x16 ./library/Ethernet/EthernetClient.o
  .text.startup._GLOBAL__sub_I__ZN14EthernetServerC2Ej
-                0x0000000000003648       0x16 ./library/Ethernet/EthernetServer.o
+                0x0000000000003b36       0x16 ./library/Ethernet/EthernetServer.o
  .text._ZN11EthernetUDP4readEPcj
-                0x000000000000365e        0xe ./library/Ethernet/EthernetUdp.o
-                0x000000000000365e                _ZN11EthernetUDP4readEPcj
+                0x0000000000003b4c        0xe ./library/Ethernet/EthernetUdp.o
+                0x0000000000003b4c                _ZN11EthernetUDP4readEPcj
  .text._ZN11EthernetUDP8remoteIPEv
-                0x000000000000366c       0x20 ./library/Ethernet/EthernetUdp.o
-                0x000000000000366c                _ZN11EthernetUDP8remoteIPEv
+                0x0000000000003b5a       0x20 ./library/Ethernet/EthernetUdp.o
+                0x0000000000003b5a                _ZN11EthernetUDP8remoteIPEv
  .text._ZN11EthernetUDP10remotePortEv
-                0x000000000000368c        0x8 ./library/Ethernet/EthernetUdp.o
-                0x000000000000368c                _ZN11EthernetUDP10remotePortEv
+                0x0000000000003b7a        0x8 ./library/Ethernet/EthernetUdp.o
+                0x0000000000003b7a                _ZN11EthernetUDP10remotePortEv
  .text._ZN11EthernetUDP9availableEv
-                0x0000000000003694        0x8 ./library/Ethernet/EthernetUdp.o
-                0x0000000000003694                _ZN11EthernetUDP9availableEv
+                0x0000000000003b82        0x8 ./library/Ethernet/EthernetUdp.o
+                0x0000000000003b82                _ZN11EthernetUDP9availableEv
  .text._ZN11EthernetUDP5writeEh
-                0x000000000000369c       0x2c ./library/Ethernet/EthernetUdp.o
-                0x000000000000369c                _ZN11EthernetUDP5writeEh
+                0x0000000000003b8a       0x2c ./library/Ethernet/EthernetUdp.o
+                0x0000000000003b8a                _ZN11EthernetUDP5writeEh
  .text._ZN11EthernetUDP5flushEv
-                0x00000000000036c8       0x24 ./library/Ethernet/EthernetUdp.o
-                0x00000000000036c8                _ZN11EthernetUDP5flushEv
+                0x0000000000003bb6       0x24 ./library/Ethernet/EthernetUdp.o
+                0x0000000000003bb6                _ZN11EthernetUDP5flushEv
  .text._ZN11EthernetUDP4peekEv
-                0x00000000000036ec       0x34 ./library/Ethernet/EthernetUdp.o
-                0x00000000000036ec                _ZN11EthernetUDP4peekEv
+                0x0000000000003bda       0x34 ./library/Ethernet/EthernetUdp.o
+                0x0000000000003bda                _ZN11EthernetUDP4peekEv
  .text._ZN11EthernetUDP4readEPhj
-                0x0000000000003720       0x3e ./library/Ethernet/EthernetUdp.o
-                0x0000000000003720                _ZN11EthernetUDP4readEPhj
+                0x0000000000003c0e       0x3e ./library/Ethernet/EthernetUdp.o
+                0x0000000000003c0e                _ZN11EthernetUDP4readEPhj
  .text._ZN11EthernetUDP4readEv
-                0x000000000000375e       0x54 ./library/Ethernet/EthernetUdp.o
-                0x000000000000375e                _ZN11EthernetUDP4readEv
+                0x0000000000003c4c       0x54 ./library/Ethernet/EthernetUdp.o
+                0x0000000000003c4c                _ZN11EthernetUDP4readEv
  .text._ZN11EthernetUDP5writeEPKhj
-                0x00000000000037b2       0x2c ./library/Ethernet/EthernetUdp.o
-                0x00000000000037b2                _ZN11EthernetUDP5writeEPKhj
+                0x0000000000003ca0       0x2c ./library/Ethernet/EthernetUdp.o
+                0x0000000000003ca0                _ZN11EthernetUDP5writeEPKhj
  .text._ZN11EthernetUDP9endPacketEv
-                0x00000000000037de        0x8 ./library/Ethernet/EthernetUdp.o
-                0x00000000000037de                _ZN11EthernetUDP9endPacketEv
+                0x0000000000003ccc        0x8 ./library/Ethernet/EthernetUdp.o
+                0x0000000000003ccc                _ZN11EthernetUDP9endPacketEv
  .text._ZN11EthernetUDP11beginPacketE9IPAddressj
-                0x00000000000037e6       0x10 ./library/Ethernet/EthernetUdp.o
-                0x00000000000037e6                _ZN11EthernetUDP11beginPacketE9IPAddressj
+                0x0000000000003cd4       0x10 ./library/Ethernet/EthernetUdp.o
+                0x0000000000003cd4                _ZN11EthernetUDP11beginPacketE9IPAddressj
  .text._ZN11EthernetUDP4stopEv
-                0x00000000000037f6       0x2a ./library/Ethernet/EthernetUdp.o
-                0x00000000000037f6                _ZN11EthernetUDP4stopEv
+                0x0000000000003ce4       0x2a ./library/Ethernet/EthernetUdp.o
+                0x0000000000003ce4                _ZN11EthernetUDP4stopEv
  .text._ZN11EthernetUDP11parsePacketEv
-                0x0000000000003820       0x9e ./library/Ethernet/EthernetUdp.o
-                0x0000000000003820                _ZN11EthernetUDP11parsePacketEv
+                0x0000000000003d0e       0x9e ./library/Ethernet/EthernetUdp.o
+                0x0000000000003d0e                _ZN11EthernetUDP11parsePacketEv
  .text._ZN11EthernetUDP5beginEj
-                0x00000000000038be       0x74 ./library/Ethernet/EthernetUdp.o
-                0x00000000000038be                _ZN11EthernetUDP5beginEj
+                0x0000000000003dac       0x74 ./library/Ethernet/EthernetUdp.o
+                0x0000000000003dac                _ZN11EthernetUDP5beginEj
  .text._ZN11EthernetUDPC2Ev
-                0x0000000000003932       0x2a ./library/Ethernet/EthernetUdp.o
-                0x0000000000003932                _ZN11EthernetUDPC2Ev
-                0x0000000000003932                _ZN11EthernetUDPC1Ev
+                0x0000000000003e20       0x2a ./library/Ethernet/EthernetUdp.o
+                0x0000000000003e20                _ZN11EthernetUDPC2Ev
+                0x0000000000003e20                _ZN11EthernetUDPC1Ev
  .text._ZN11EthernetUDP11beginPacketEPKcj
-                0x000000000000395c       0xc2 ./library/Ethernet/EthernetUdp.o
-                0x000000000000395c                _ZN11EthernetUDP11beginPacketEPKcj
+                0x0000000000003e4a       0xc2 ./library/Ethernet/EthernetUdp.o
+                0x0000000000003e4a                _ZN11EthernetUDP11beginPacketEPKcj
  .text.startup._GLOBAL__sub_I__ZN11EthernetUDPC2Ev
-                0x0000000000003a1e       0x16 ./library/Ethernet/EthernetUdp.o
+                0x0000000000003f0c       0x16 ./library/Ethernet/EthernetUdp.o
  .text._ZN14CountingStream5writeEh
-                0x0000000000003a34        0x6 ./library/CosmArduino/CosmClient.o
-                0x0000000000003a34                _ZN14CountingStream5writeEh
+                0x0000000000003f22        0x6 ./library/CosmArduino/CosmClient.o
+                0x0000000000003f22                _ZN14CountingStream5writeEh
  .text._ZN14CountingStream5writeEPKhj
-                0x0000000000003a3a        0x4 ./library/CosmArduino/CosmClient.o
-                0x0000000000003a3a                _ZN14CountingStream5writeEPKhj
+                0x0000000000003f28        0x4 ./library/CosmArduino/CosmClient.o
+                0x0000000000003f28                _ZN14CountingStream5writeEPKhj
  .text._ZN10CosmClientC2ER6Client
-                0x0000000000003a3e        0x8 ./library/CosmArduino/CosmClient.o
-                0x0000000000003a3e                _ZN10CosmClientC2ER6Client
-                0x0000000000003a3e                _ZN10CosmClientC1ER6Client
+                0x0000000000003f2c        0x8 ./library/CosmArduino/CosmClient.o
+                0x0000000000003f2c                _ZN10CosmClientC2ER6Client
+                0x0000000000003f2c                _ZN10CosmClientC1ER6Client
  .text._ZN10CosmClient9buildPathEPcmPKc
-                0x0000000000003a46       0xe4 ./library/CosmArduino/CosmClient.o
-                0x0000000000003a46                _ZN10CosmClient9buildPathEPcmPKc
+                0x0000000000003f34       0xe4 ./library/CosmArduino/CosmClient.o
+                0x0000000000003f34                _ZN10CosmClient9buildPathEPcmPKc
  .text._ZN10CosmClient3putER8CosmFeedPKc
-                0x0000000000003b2a      0x136 ./library/CosmArduino/CosmClient.o
-                0x0000000000003b2a                _ZN10CosmClient3putER8CosmFeedPKc
+                0x0000000000004018      0x136 ./library/CosmArduino/CosmClient.o
+                0x0000000000004018                _ZN10CosmClient3putER8CosmFeedPKc
  .text.startup._GLOBAL__sub_I__ZN10CosmClientC2ER6Client
-                0x0000000000003c60       0x16 ./library/CosmArduino/CosmClient.o
+                0x000000000000414e       0x16 ./library/CosmArduino/CosmClient.o
  .text._ZNK14CosmDatastream7printToER5Print
-                0x0000000000003c76       0xd6 ./library/CosmArduino/CosmDatastream.o
-                0x0000000000003c76                _ZNK14CosmDatastream7printToER5Print
+                0x0000000000004164       0xd6 ./library/CosmArduino/CosmDatastream.o
+                0x0000000000004164                _ZNK14CosmDatastream7printToER5Print
  .text._ZN14CosmDatastreamC2EPcii
-                0x0000000000003d4c       0x5e ./library/CosmArduino/CosmDatastream.o
-                0x0000000000003d4c                _ZN14CosmDatastreamC1EPcii
-                0x0000000000003d4c                _ZN14CosmDatastreamC2EPcii
+                0x000000000000423a       0x5e ./library/CosmArduino/CosmDatastream.o
+                0x000000000000423a                _ZN14CosmDatastreamC1EPcii
+                0x000000000000423a                _ZN14CosmDatastreamC2EPcii
  .text._ZN14CosmDatastream8setFloatEf
-                0x0000000000003daa       0x16 ./library/CosmArduino/CosmDatastream.o
-                0x0000000000003daa                _ZN14CosmDatastream8setFloatEf
+                0x0000000000004298       0x16 ./library/CosmArduino/CosmDatastream.o
+                0x0000000000004298                _ZN14CosmDatastream8setFloatEf
  .text._ZN14CosmDatastream8getFloatEv
-                0x0000000000003dc0       0x2a ./library/CosmArduino/CosmDatastream.o
-                0x0000000000003dc0                _ZN14CosmDatastream8getFloatEv
+                0x00000000000042ae       0x2a ./library/CosmArduino/CosmDatastream.o
+                0x00000000000042ae                _ZN14CosmDatastream8getFloatEv
  .text._ZNK8CosmFeed7printToER5Print
-                0x0000000000003dea       0xd2 ./library/CosmArduino/CosmFeed.o
-                0x0000000000003dea                _ZNK8CosmFeed7printToER5Print
+                0x00000000000042d8       0xd2 ./library/CosmArduino/CosmFeed.o
+                0x00000000000042d8                _ZNK8CosmFeed7printToER5Print
  .text._ZN8CosmFeedC2EmP14CosmDatastreami
-                0x0000000000003ebc       0x24 ./library/CosmArduino/CosmFeed.o
-                0x0000000000003ebc                _ZN8CosmFeedC1EmP14CosmDatastreami
-                0x0000000000003ebc                _ZN8CosmFeedC2EmP14CosmDatastreami
+                0x00000000000043aa       0x24 ./library/CosmArduino/CosmFeed.o
+                0x00000000000043aa                _ZN8CosmFeedC1EmP14CosmDatastreami
+                0x00000000000043aa                _ZN8CosmFeedC2EmP14CosmDatastreami
  .text.startup._GLOBAL__sub_I__ZN8CosmFeedC2EmP14CosmDatastreami
-                0x0000000000003ee0       0x16 ./library/CosmArduino/CosmFeed.o
+                0x00000000000043ce       0x16 ./library/CosmArduino/CosmFeed.o
+ .text._ZN7DS18B20C2Eh
+                0x00000000000043e4       0x10 ./DS18B20.o
+                0x00000000000043e4                _ZN7DS18B20C2Eh
+                0x00000000000043e4                _ZN7DS18B20C1Eh
+ .text._ZN7DS18B206searchEv
+                0x00000000000043f4       0x6e ./DS18B20.o
+                0x00000000000043f4                _ZN7DS18B206searchEv
+ .text._ZN7DS18B2016startMeasurementEh
+                0x0000000000004462       0x6e ./DS18B20.o
+                0x0000000000004462                _ZN7DS18B2016startMeasurementEh
+ .text._ZN7DS18B2014getTemperatureEh
+                0x00000000000044d0       0xd6 ./DS18B20.o
+                0x00000000000044d0                _ZN7DS18B2014getTemperatureEh
+ .text._ZN7DS18B2026startAndWaitForTemperatureEh
+                0x00000000000045a6       0x28 ./DS18B20.o
+                0x00000000000045a6                _ZN7DS18B2026startAndWaitForTemperatureEh
  .text._ZN14CosmDatastreamD2Ev
-                0x0000000000003ef6       0x22 ./main.o
-                0x0000000000003ef6                _ZN14CosmDatastreamD1Ev
-                0x0000000000003ef6                _ZN14CosmDatastreamD2Ev
- .text.setup    0x0000000000003f18       0x50 ./main.o
-                0x0000000000003f18                setup
- .text.loop     0x0000000000003f68       0xbc ./main.o
-                0x0000000000003f68                loop
+                0x00000000000045ce       0x22 ./main.o
+                0x00000000000045ce                _ZN14CosmDatastreamD1Ev
+                0x00000000000045ce                _ZN14CosmDatastreamD2Ev
+ .text.setup    0x00000000000045f0       0x76 ./main.o
+                0x00000000000045f0                setup
+ .text.loop     0x0000000000004666      0x148 ./main.o
+                0x0000000000004666                loop
  .text.startup._GLOBAL__sub_I_mac
-                0x0000000000004024       0x8c ./main.o
+                0x00000000000047ae       0x96 ./main.o
  .text.exit._GLOBAL__sub_D_mac
-                0x00000000000040b0       0x10 ./main.o
+                0x0000000000004844       0x10 ./main.o
  .text._ZN14HardwareSerial9availableEv
-                0x00000000000040c0       0x26 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x00000000000040c0                _ZN14HardwareSerial9availableEv
+                0x0000000000004854       0x26 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004854                _ZN14HardwareSerial9availableEv
  .text._ZN14HardwareSerial4peekEv
-                0x00000000000040e6       0x38 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x00000000000040e6                _ZN14HardwareSerial4peekEv
+                0x000000000000487a       0x38 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x000000000000487a                _ZN14HardwareSerial4peekEv
  .text._ZN14HardwareSerial4readEv
-                0x000000000000411e       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x000000000000411e                _ZN14HardwareSerial4readEv
+                0x00000000000048b2       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000048b2                _ZN14HardwareSerial4readEv
  .text._ZN14HardwareSerial5flushEv
-                0x0000000000004162       0x16 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x0000000000004162                _ZN14HardwareSerial5flushEv
+                0x00000000000048f6       0x16 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000048f6                _ZN14HardwareSerial5flushEv
  .text._ZN14HardwareSerial5writeEh
-                0x0000000000004178       0x7a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x0000000000004178                _ZN14HardwareSerial5writeEh
+                0x000000000000490c       0x7a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x000000000000490c                _ZN14HardwareSerial5writeEh
  .text._Z10store_charhP11ring_buffer
-                0x00000000000041f2       0x32 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x00000000000041f2                _Z10store_charhP11ring_buffer
+                0x0000000000004986       0x32 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004986                _Z10store_charhP11ring_buffer
  .text._Z11serialEventv
-                0x0000000000004224        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x0000000000004224                _Z11serialEventv
+                0x00000000000049b8        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000049b8                _Z11serialEventv
  .text.__vector_25
-                0x0000000000004226       0x68 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x0000000000004226                __vector_25
+                0x00000000000049ba       0x68 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000000049ba                __vector_25
  .text._Z12serialEvent1v
-                0x000000000000428e        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x000000000000428e                _Z12serialEvent1v
+                0x0000000000004a22        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004a22                _Z12serialEvent1v
  .text.__vector_36
-                0x0000000000004290       0x68 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x0000000000004290                __vector_36
+                0x0000000000004a24       0x68 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004a24                __vector_36
  .text._Z12serialEvent2v
-                0x00000000000042f8        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x00000000000042f8                _Z12serialEvent2v
+                0x0000000000004a8c        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004a8c                _Z12serialEvent2v
  .text.__vector_51
-                0x00000000000042fa       0x68 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x00000000000042fa                __vector_51
+                0x0000000000004a8e       0x68 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004a8e                __vector_51
  .text._Z12serialEvent3v
-                0x0000000000004362        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x0000000000004362                _Z12serialEvent3v
+                0x0000000000004af6        0x2 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004af6                _Z12serialEvent3v
  .text.__vector_54
-                0x0000000000004364       0x68 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x0000000000004364                __vector_54
+                0x0000000000004af8       0x68 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004af8                __vector_54
  .text._Z14serialEventRunv
-                0x00000000000043cc       0x42 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x00000000000043cc                _Z14serialEventRunv
+                0x0000000000004b60       0x42 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004b60                _Z14serialEventRunv
  .text.__vector_26
-                0x000000000000440e       0x80 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x000000000000440e                __vector_26
+                0x0000000000004ba2       0x80 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004ba2                __vector_26
  .text.__vector_37
-                0x000000000000448e       0x80 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x000000000000448e                __vector_37
+                0x0000000000004c22       0x80 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004c22                __vector_37
  .text.__vector_52
-                0x000000000000450e       0x80 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x000000000000450e                __vector_52
+                0x0000000000004ca2       0x80 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004ca2                __vector_52
  .text.__vector_55
-                0x000000000000458e       0x80 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x000000000000458e                __vector_55
+                0x0000000000004d22       0x80 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004d22                __vector_55
  .text._ZN14HardwareSerial5beginEm
-                0x000000000000460e      0x102 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x000000000000460e                _ZN14HardwareSerial5beginEm
+                0x0000000000004da2      0x102 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004da2                _ZN14HardwareSerial5beginEm
  .text.startup._GLOBAL__sub_I_rx_buffer
-                0x0000000000004710      0x26c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000004ea4      0x26c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
  .text._ZNK9IPAddress7printToER5Print
-                0x000000000000497c       0x76 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
-                0x000000000000497c                _ZNK9IPAddress7printToER5Print
+                0x0000000000005110       0x76 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
+                0x0000000000005110                _ZNK9IPAddress7printToER5Print
  .text._ZN9IPAddressC2Ev
-                0x00000000000049f2       0x14 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
-                0x00000000000049f2                _ZN9IPAddressC2Ev
-                0x00000000000049f2                _ZN9IPAddressC1Ev
+                0x0000000000005186       0x14 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
+                0x0000000000005186                _ZN9IPAddressC2Ev
+                0x0000000000005186                _ZN9IPAddressC1Ev
  .text._ZN9IPAddressC2Ehhhh
-                0x0000000000004a06       0x18 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
-                0x0000000000004a06                _ZN9IPAddressC1Ehhhh
-                0x0000000000004a06                _ZN9IPAddressC2Ehhhh
+                0x000000000000519a       0x18 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
+                0x000000000000519a                _ZN9IPAddressC1Ehhhh
+                0x000000000000519a                _ZN9IPAddressC2Ehhhh
  .text._ZN9IPAddressC2EPKh
-                0x0000000000004a1e       0x20 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
-                0x0000000000004a1e                _ZN9IPAddressC1EPKh
-                0x0000000000004a1e                _ZN9IPAddressC2EPKh
+                0x00000000000051b2       0x20 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
+                0x00000000000051b2                _ZN9IPAddressC1EPKh
+                0x00000000000051b2                _ZN9IPAddressC2EPKh
  .text._ZN9IPAddressaSEPKh
-                0x0000000000004a3e       0x16 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
-                0x0000000000004a3e                _ZN9IPAddressaSEPKh
+                0x00000000000051d2       0x16 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
+                0x00000000000051d2                _ZN9IPAddressaSEPKh
  .text.startup._GLOBAL__sub_I__ZN9IPAddressC2Ev
-                0x0000000000004a54       0x1e /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
+                0x00000000000051e8       0x1e /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
  .text._ZN5Print5writeEPKhj
-                0x0000000000004a72       0x50 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004a72                _ZN5Print5writeEPKhj
+                0x0000000000005206       0x50 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000005206                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x0000000000004ac2       0x2c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004ac2                _ZN5Print5writeEPKc
+                0x0000000000005256       0x2c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000005256                _ZN5Print5writeEPKc
  .text._ZN5Print5printERK6String
-                0x0000000000004aee       0x6c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004aee                _ZN5Print5printERK6String
+                0x0000000000005282       0x6c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000005282                _ZN5Print5printERK6String
  .text._ZN5Print5printEPKc
-                0x0000000000004b5a        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004b5a                _ZN5Print5printEPKc
+                0x00000000000052ee        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x00000000000052ee                _ZN5Print5printEPKc
  .text._ZN5Print5printEc
-                0x0000000000004b5e        0xe /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004b5e                _ZN5Print5printEc
+                0x00000000000052f2        0xe /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x00000000000052f2                _ZN5Print5printEc
  .text._ZN5Print5printERK9Printable
-                0x0000000000004b6c       0x14 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004b6c                _ZN5Print5printERK9Printable
+                0x0000000000005300       0x14 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000005300                _ZN5Print5printERK9Printable
  .text._ZN5Print7printlnEv
-                0x0000000000004b80       0x2c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004b80                _ZN5Print7printlnEv
+                0x0000000000005314       0x2c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000005314                _ZN5Print7printlnEv
  .text._ZN5Print7printlnEPKc
-                0x0000000000004bac       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004bac                _ZN5Print7printlnEPKc
+                0x0000000000005340       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000005340                _ZN5Print7printlnEPKc
  .text._ZN5Print11printNumberEmh
-                0x0000000000004bd4       0xb8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004bd4                _ZN5Print11printNumberEmh
+                0x0000000000005368       0xb8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000005368                _ZN5Print11printNumberEmh
  .text._ZN5Print5printEmi
-                0x0000000000004c8c       0x1a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004c8c                _ZN5Print5printEmi
+                0x0000000000005420       0x1a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000005420                _ZN5Print5printEmi
  .text._ZN5Print5printEji
-                0x0000000000004ca6        0xc /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004ca6                _ZN5Print5printEji
+                0x000000000000543a        0xc /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x000000000000543a                _ZN5Print5printEji
  .text._ZN5Print5printEhi
-                0x0000000000004cb2        0xe /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004cb2                _ZN5Print5printEhi
+                0x0000000000005446        0xe /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000005446                _ZN5Print5printEhi
+ .text._ZN5Print7printlnEhi
+                0x0000000000005454       0x32 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000005454                _ZN5Print7printlnEhi
  .text._ZN5Print5printEli
-                0x0000000000004cc0       0x98 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004cc0                _ZN5Print5printEli
+                0x0000000000005486       0x98 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000005486                _ZN5Print5printEli
  .text._ZN5Print5printEii
-                0x0000000000004d58       0x10 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004d58                _ZN5Print5printEii
+                0x000000000000551e       0x10 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x000000000000551e                _ZN5Print5printEii
  .text._ZN5Print7printlnEii
-                0x0000000000004d68       0x34 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004d68                _ZN5Print7printlnEii
+                0x000000000000552e       0x34 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x000000000000552e                _ZN5Print7printlnEii
  .text._ZN5Print10printFloatEdh
-                0x0000000000004d9c      0x1e8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004d9c                _ZN5Print10printFloatEdh
+                0x0000000000005562      0x1e8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000005562                _ZN5Print10printFloatEdh
  .text._ZN5Print5printEdi
-                0x0000000000004f84        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004f84                _ZN5Print5printEdi
+                0x000000000000574a        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x000000000000574a                _ZN5Print5printEdi
  .text._ZN5Print7printlnEdi
-                0x0000000000004f88       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
-                0x0000000000004f88                _ZN5Print7printlnEdi
+                0x000000000000574e       0x28 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x000000000000574e                _ZN5Print7printlnEdi
  .text._Z6randoml
-                0x0000000000004fb0       0x58 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WMath.o)
-                0x0000000000004fb0                _Z6randoml
+                0x0000000000005776       0x58 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WMath.o)
+                0x0000000000005776                _Z6randoml
  .text._Z6randomll
-                0x0000000000005008       0x3c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WMath.o)
-                0x0000000000005008                _Z6randomll
+                0x00000000000057ce       0x3c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WMath.o)
+                0x00000000000057ce                _Z6randomll
  .text._ZN6StringD2Ev
-                0x0000000000005044        0xa /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-                0x0000000000005044                _ZN6StringD1Ev
-                0x0000000000005044                _ZN6StringD2Ev
+                0x000000000000580a        0xa /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x000000000000580a                _ZN6StringD1Ev
+                0x000000000000580a                _ZN6StringD2Ev
  .text._ZN6String10invalidateEv
-                0x000000000000504e       0x24 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-                0x000000000000504e                _ZN6String10invalidateEv
+                0x0000000000005814       0x24 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000005814                _ZN6String10invalidateEv
  .text._ZN6String12changeBufferEj
-                0x0000000000005072       0x34 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-                0x0000000000005072                _ZN6String12changeBufferEj
+                0x0000000000005838       0x34 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000005838                _ZN6String12changeBufferEj
  .text._ZN6String7reserveEj
-                0x00000000000050a6       0x3e /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-                0x00000000000050a6                _ZN6String7reserveEj
+                0x000000000000586c       0x3e /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x000000000000586c                _ZN6String7reserveEj
  .text._ZN6String4copyEPKcj
-                0x00000000000050e4       0x42 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-                0x00000000000050e4                _ZN6String4copyEPKcj
+                0x00000000000058aa       0x42 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x00000000000058aa                _ZN6String4copyEPKcj
  .text._ZN6StringC2EPKc
-                0x0000000000005126       0x3a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-                0x0000000000005126                _ZN6StringC1EPKc
-                0x0000000000005126                _ZN6StringC2EPKc
+                0x00000000000058ec       0x3a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x00000000000058ec                _ZN6StringC1EPKc
+                0x00000000000058ec                _ZN6StringC2EPKc
  .text._ZNK6StringixEj
-                0x0000000000005160       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
-                0x0000000000005160                _ZNK6StringixEj
+                0x0000000000005926       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+                0x0000000000005926                _ZNK6StringixEj
  .text.startup.main
-                0x0000000000005182       0x1a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
-                0x0000000000005182                main
- .text._Znwj    0x000000000000519c        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
-                0x000000000000519c                _Znwj
+                0x0000000000005948       0x1a /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+                0x0000000000005948                main
+ .text._Znwj    0x0000000000005962        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+                0x0000000000005962                _Znwj
  .text.__vector_23
-                0x00000000000051a0       0x94 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
-                0x00000000000051a0                __vector_23
- .text.millis   0x0000000000005234       0x24 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
-                0x0000000000005234                millis
- .text.micros   0x0000000000005258       0x54 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
-                0x0000000000005258                micros
- .text.delay    0x00000000000052ac       0x4c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
-                0x00000000000052ac                delay
- .text.init     0x00000000000052f8       0xc4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
-                0x00000000000052f8                init
+                0x0000000000005966       0x94 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x0000000000005966                __vector_23
+ .text.millis   0x00000000000059fa       0x24 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x00000000000059fa                millis
+ .text.micros   0x0000000000005a1e       0x54 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x0000000000005a1e                micros
+ .text.delay    0x0000000000005a72       0x4c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x0000000000005a72                delay
+ .text.delayMicroseconds
+                0x0000000000005abe       0x14 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x0000000000005abe                delayMicroseconds
+ .text.init     0x0000000000005ad2       0xc4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x0000000000005ad2                init
  .text.turnOffPWM
-                0x00000000000053bc       0xd8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
- .text.pinMode  0x0000000000005494       0x70 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
-                0x0000000000005494                pinMode
+                0x0000000000005b96       0xd8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
+ .text.pinMode  0x0000000000005c6e       0x70 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
+                0x0000000000005c6e                pinMode
  .text.digitalWrite
-                0x0000000000005504       0x6e /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
-                0x0000000000005504                digitalWrite
+                0x0000000000005cde       0x6e /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
+                0x0000000000005cde                digitalWrite
  .text.libgcc.mul
-                0x0000000000005572       0x16 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_muluhisi3.o)
-                0x0000000000005572                __muluhisi3
+                0x0000000000005d4c       0x16 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_muluhisi3.o)
+                0x0000000000005d4c                __muluhisi3
  .text.libgcc.div
-                0x0000000000005588       0x44 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_udivmodsi4.o)
-                0x0000000000005588                __udivmodsi4
+                0x0000000000005d62       0x44 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_udivmodsi4.o)
+                0x0000000000005d62                __udivmodsi4
  .text.libgcc.div
-                0x00000000000055cc       0x38 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_divmodsi4.o)
-                0x00000000000055cc                __divmodsi4
+                0x0000000000005da6       0x38 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_divmodsi4.o)
+                0x0000000000005da6                __divmodsi4
  .text.libgcc.builtins
-                0x0000000000005604        0xe /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_bswapsi2.o)
-                0x0000000000005604                __bswapsi2
+                0x0000000000005dde        0xe /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_bswapsi2.o)
+                0x0000000000005dde                __bswapsi2
  .text.libgcc.mul
-                0x0000000000005612       0x18 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_umulhisi3.o)
-                0x0000000000005612                __umulhisi3
+                0x0000000000005dec       0x18 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_umulhisi3.o)
+                0x0000000000005dec                __umulhisi3
  .text.libgcc.prologue
-                0x000000000000562a       0x38 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_prologue.o)
-                0x000000000000562a                __prologue_saves__
+                0x0000000000005e04       0x38 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_prologue.o)
+                0x0000000000005e04                __prologue_saves__
  .text.libgcc.prologue
-                0x0000000000005662       0x36 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_epilogue.o)
-                0x0000000000005662                __epilogue_restores__
- .text.libgcc   0x0000000000005698        0x8 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_tablejump_elpm.o)
-                0x0000000000005698                __tablejump_elpm__
+                0x0000000000005e3c       0x36 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_epilogue.o)
+                0x0000000000005e3c                __epilogue_restores__
+ .text.libgcc   0x0000000000005e72        0x8 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_tablejump_elpm.o)
+                0x0000000000005e72                __tablejump_elpm__
  .text.libgcc.builtins
-                0x00000000000056a0       0x12 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_clzsi2.o)
-                0x00000000000056a0                __clzsi2
+                0x0000000000005e7a       0x12 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_clzsi2.o)
+                0x0000000000005e7a                __clzsi2
  .text.libgcc.builtins
-                0x00000000000056b2       0x24 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_clzhi2.o)
-                0x00000000000056b2                __clzhi2
+                0x0000000000005e8c       0x24 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_clzhi2.o)
+                0x0000000000005e8c                __clzhi2
  .text.avr-libc
-                0x00000000000056d6      0x272 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
-                0x00000000000056d6                malloc
-                0x000000000000580c                free
+                0x0000000000005eb0      0x272 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
+                0x0000000000005eb0                malloc
+                0x0000000000005fe6                free
  .text.avr-libc
-                0x0000000000005948       0xb8 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(random.o)
-                0x00000000000059e2                random_r
-                0x00000000000059e6                random
-                0x00000000000059ee                srandom
+                0x0000000000006122       0xb8 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(random.o)
+                0x00000000000061bc                random_r
+                0x00000000000061c0                random
+                0x00000000000061c8                srandom
  .text.avr-libc
-                0x0000000000005a00      0x1c0 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
-                0x0000000000005a00                realloc
+                0x00000000000061da      0x1c0 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
+                0x00000000000061da                realloc
  .text.avr-libc
-                0x0000000000005bc0       0x1a /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memcmp.o)
-                0x0000000000005bc0                memcmp
+                0x000000000000639a       0x1a /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memcmp.o)
+                0x000000000000639a                memcmp
  .text.avr-libc
-                0x0000000000005bda       0x12 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memcpy.o)
-                0x0000000000005bda                memcpy
+                0x00000000000063b4       0x12 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memcpy.o)
+                0x00000000000063b4                memcpy
  .text.avr-libc
-                0x0000000000005bec       0x16 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcat.o)
-                0x0000000000005bec                strcat
+                0x00000000000063c6       0x16 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcat.o)
+                0x00000000000063c6                strcat
  .text.avr-libc
-                0x0000000000005c02        0xe /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcpy.o)
-                0x0000000000005c02                strcpy
+                0x00000000000063dc        0xe /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcpy.o)
+                0x00000000000063dc                strcpy
  .text.libgcc.mul
-                0x0000000000005c10       0x10 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_mulshisi3.o)
-                0x0000000000005c10                __mulshisi3
-                0x0000000000005c16                __mulohisi3
-                0x0000000000005c20                . = ALIGN (0x2)
+                0x00000000000063ea       0x10 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_mulshisi3.o)
+                0x00000000000063ea                __mulshisi3
+                0x00000000000063f0                __mulohisi3
+                0x00000000000063fa                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000000000005c20        0x0 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_exit.o)
-                0x0000000000005c20                exit
-                0x0000000000005c20                _exit
+ .fini9         0x00000000000063fa        0x0 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_exit.o)
+                0x00000000000063fa                exit
+                0x00000000000063fa                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
  *(.fini7)
  *(.fini7)
  *(.fini6)
- .fini6         0x0000000000005c20       0x20 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_dtors.o)
-                0x0000000000005c20                __do_global_dtors
+ .fini6         0x00000000000063fa       0x20 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_dtors.o)
+                0x00000000000063fa                __do_global_dtors
  *(.fini6)
  *(.fini5)
  *(.fini5)
@@ -2034,11 +2072,11 @@ LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000005c40        0x4 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_exit.o)
+ .fini0         0x000000000000641a        0x4 /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_exit.o)
  *(.fini0)
-                0x0000000000005c44                _etext = .
+                0x000000000000641e                _etext = .
 
-.data           0x0000000000800200      0x2c2 load address 0x0000000000005c44
+.data           0x0000000000800200      0x314 load address 0x000000000000641e
                 0x0000000000800200                PROVIDE (__data_start, .)
  *(.data)
  .data          0x0000000000800200        0x6 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
@@ -2103,121 +2141,125 @@ LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
                 0x00000000008003d4        0x6 ./library/CosmArduino/CosmFeed.o
                 0x00000000008003d4                _ZTV8CosmFeed
  .rodata.str1.1
-                0x00000000008003da       0xc5 ./main.o
+                0x00000000008003da      0x118 ./main.o
  .rodata._ZTV14HardwareSerial
-                0x000000000080049f       0x10 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x000000000080049f                _ZTV14HardwareSerial
+                0x00000000008004f2       0x10 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000008004f2                _ZTV14HardwareSerial
  .rodata._ZTV9IPAddress
-                0x00000000008004af        0x6 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
-                0x00000000008004af                _ZTV9IPAddress
+                0x0000000000800502        0x6 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
+                0x0000000000800502                _ZTV9IPAddress
  .rodata.str1.1
-                0x00000000008004b5        0xc /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                0x0000000000800508        0xc /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
                                           0xe (size before relaxing)
  *(.gnu.linkonce.d*)
-                0x00000000008004c2                . = ALIGN (0x2)
- *fill*         0x00000000008004c1        0x1 00
-                0x00000000008004c2                _edata = .
-                0x00000000008004c2                PROVIDE (__data_end, .)
+                0x0000000000800514                . = ALIGN (0x2)
+                0x0000000000800514                _edata = .
+                0x0000000000800514                PROVIDE (__data_end, .)
 
-.bss            0x00000000008004c2      0x36a
-                0x00000000008004c2                PROVIDE (__bss_start, .)
+.bss            0x0000000000800514      0x3c3
+                0x0000000000800514                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
  .bss._ZL11INADDR_NONE
-                0x00000000008004c2        0x6 ./library/HttpClient/HttpClient.o
+                0x0000000000800514        0x6 ./library/HttpClient/HttpClient.o
  .bss._ZL10local_port
-                0x00000000008004c8        0x2 ./library/Ethernet/utility/socket.o
- .bss.W5100     0x00000000008004ca       0x10 ./library/Ethernet/utility/w5100.o
-                0x00000000008004ca                W5100
+                0x000000000080051a        0x2 ./library/Ethernet/utility/socket.o
+ .bss.W5100     0x000000000080051c       0x10 ./library/Ethernet/utility/w5100.o
+                0x000000000080051c                W5100
  .bss._ZL11INADDR_NONE
-                0x00000000008004da        0x6 ./library/Ethernet/Dhcp.o
+                0x000000000080052c        0x6 ./library/Ethernet/Dhcp.o
  .bss._ZL11INADDR_NONE
-                0x00000000008004e0        0x6 ./library/Ethernet/Dns.o
- .bss.Ethernet  0x00000000008004e6        0x8 ./library/Ethernet/Ethernet.o
-                0x00000000008004e6                Ethernet
+                0x0000000000800532        0x6 ./library/Ethernet/Dns.o
+ .bss.Ethernet  0x0000000000800538        0x8 ./library/Ethernet/Ethernet.o
+                0x0000000000800538                Ethernet
  .bss._ZN13EthernetClass12_server_portE
-                0x00000000008004ee        0x8 ./library/Ethernet/Ethernet.o
-                0x00000000008004ee                _ZN13EthernetClass12_server_portE
+                0x0000000000800540        0x8 ./library/Ethernet/Ethernet.o
+                0x0000000000800540                _ZN13EthernetClass12_server_portE
  .bss._ZL11INADDR_NONE
-                0x00000000008004f6        0x6 ./library/Ethernet/Ethernet.o
+                0x0000000000800548        0x6 ./library/Ethernet/Ethernet.o
  .bss._ZL11INADDR_NONE
-                0x00000000008004fc        0x6 ./library/Ethernet/EthernetClient.o
+                0x000000000080054e        0x6 ./library/Ethernet/EthernetClient.o
  .bss._ZL11INADDR_NONE
-                0x0000000000800502        0x6 ./library/Ethernet/EthernetServer.o
+                0x0000000000800554        0x6 ./library/Ethernet/EthernetServer.o
  .bss._ZL11INADDR_NONE
-                0x0000000000800508        0x6 ./library/Ethernet/EthernetUdp.o
+                0x000000000080055a        0x6 ./library/Ethernet/EthernetUdp.o
  .bss._ZL11INADDR_NONE
-                0x000000000080050e        0x6 ./library/CosmArduino/CosmClient.o
+                0x0000000000800560        0x6 ./library/CosmArduino/CosmClient.o
  .bss._ZL11INADDR_NONE
-                0x0000000000800514        0x6 ./library/CosmArduino/CosmFeed.o
+                0x0000000000800566        0x6 ./library/CosmArduino/CosmFeed.o
+ .bss.numberOfSensors
+                0x000000000080056c        0x1 ./main.o
+                0x000000000080056c                numberOfSensors
+ .bss.ds        0x000000000080056d       0x58 ./main.o
+                0x000000000080056d                ds
  .bss.cosmclient
-                0x000000000080051a        0x2 ./main.o
-                0x000000000080051a                cosmclient
- .bss.client    0x000000000080051c        0xd ./main.o
-                0x000000000080051c                client
- .bss.feed      0x0000000000800529        0xa ./main.o
-                0x0000000000800529                feed
+                0x00000000008005c5        0x2 ./main.o
+                0x00000000008005c5                cosmclient
+ .bss.client    0x00000000008005c7        0xd ./main.o
+                0x00000000008005c7                client
+ .bss.feed      0x00000000008005d4        0xa ./main.o
+                0x00000000008005d4                feed
  .bss.datastreams
-                0x0000000000800533       0x38 ./main.o
-                0x0000000000800533                datastreams
+                0x00000000008005de       0x38 ./main.o
+                0x00000000008005de                datastreams
  .bss._ZL11INADDR_NONE
-                0x000000000080056b        0x6 ./main.o
- .bss.Serial3   0x0000000000800571       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x0000000000800571                Serial3
- .bss.Serial2   0x0000000000800593       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x0000000000800593                Serial2
- .bss.Serial1   0x00000000008005b5       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x00000000008005b5                Serial1
- .bss.Serial    0x00000000008005d7       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x00000000008005d7                Serial
+                0x0000000000800616        0x6 ./main.o
+ .bss.Serial3   0x000000000080061c       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x000000000080061c                Serial3
+ .bss.Serial2   0x000000000080063e       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x000000000080063e                Serial2
+ .bss.Serial1   0x0000000000800660       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000800660                Serial1
+ .bss.Serial    0x0000000000800682       0x22 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000800682                Serial
  .bss.tx_buffer3
-                0x00000000008005f9       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x00000000008005f9                tx_buffer3
+                0x00000000008006a4       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000008006a4                tx_buffer3
  .bss.rx_buffer3
-                0x000000000080063d       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x000000000080063d                rx_buffer3
+                0x00000000008006e8       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000008006e8                rx_buffer3
  .bss.tx_buffer2
-                0x0000000000800681       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x0000000000800681                tx_buffer2
+                0x000000000080072c       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x000000000080072c                tx_buffer2
  .bss.rx_buffer2
-                0x00000000008006c5       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x00000000008006c5                rx_buffer2
+                0x0000000000800770       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000800770                rx_buffer2
  .bss.tx_buffer1
-                0x0000000000800709       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x0000000000800709                tx_buffer1
+                0x00000000008007b4       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000008007b4                tx_buffer1
  .bss.rx_buffer1
-                0x000000000080074d       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x000000000080074d                rx_buffer1
+                0x00000000008007f8       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x00000000008007f8                rx_buffer1
  .bss.tx_buffer
-                0x0000000000800791       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x0000000000800791                tx_buffer
+                0x000000000080083c       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x000000000080083c                tx_buffer
  .bss.rx_buffer
-                0x00000000008007d5       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
-                0x00000000008007d5                rx_buffer
+                0x0000000000800880       0x44 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+                0x0000000000800880                rx_buffer
  .bss._ZL11INADDR_NONE
-                0x0000000000800819        0x6 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
+                0x00000000008008c4        0x6 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
  .bss.timer0_millis
-                0x000000000080081f        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
-                0x000000000080081f                timer0_millis
+                0x00000000008008ca        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x00000000008008ca                timer0_millis
  .bss.timer0_overflow_count
-                0x0000000000800823        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
-                0x0000000000800823                timer0_overflow_count
+                0x00000000008008ce        0x4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x00000000008008ce                timer0_overflow_count
  .bss.timer0_fract
-                0x0000000000800827        0x1 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+                0x00000000008008d2        0x1 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
  *(COMMON)
- COMMON         0x0000000000800828        0x4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
-                0x0000000000800828                __brkval
-                0x000000000080082a                __flp
-                0x000000000080082c                PROVIDE (__bss_end, .)
-                0x0000000000005c44                __data_load_start = LOADADDR (.data)
-                0x0000000000005f06                __data_load_end = (__data_load_start + SIZEOF (.data))
+ COMMON         0x00000000008008d3        0x4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
+                0x00000000008008d3                __brkval
+                0x00000000008008d5                __flp
+                0x00000000008008d7                PROVIDE (__bss_end, .)
+                0x000000000000641e                __data_load_start = LOADADDR (.data)
+                0x0000000000006732                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x000000000080082c        0x0
-                0x000000000080082c                PROVIDE (__noinit_start, .)
+.noinit         0x00000000008008d7        0x0
+                0x00000000008008d7                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x000000000080082c                PROVIDE (__noinit_end, .)
-                0x000000000080082c                _end = .
-                0x000000000080082c                PROVIDE (__heap_start, .)
+                0x00000000008008d7                PROVIDE (__noinit_end, .)
+                0x00000000008008d7                _end = .
+                0x00000000008008d7                PROVIDE (__heap_start, .)
 
 .eeprom         0x0000000000810000        0x0
  *(.eeprom*)
@@ -2235,115 +2277,117 @@ LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
 .signature
  *(.signature*)
 
-.stab           0x0000000000000000    0x11f58
+.stab           0x0000000000000000    0x13320
  *(.stab)
  .stab          0x0000000000000000      0x6e4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
  .stab          0x00000000000006e4      0x48c ./library/SPI/SPI.o
                                         0x69c (size before relaxing)
- .stab          0x0000000000000b70      0x42c ./library/OneWire/OneWire.o
+ .stab          0x0000000000000b70      0xe58 ./library/OneWire/OneWire.o
                                        0x12b4 (size before relaxing)
- .stab          0x0000000000000f9c     0x138c ./library/HttpClient/HttpClient.o
+ .stab          0x00000000000019c8     0x138c ./library/HttpClient/HttpClient.o
                                        0x1998 (size before relaxing)
- .stab          0x0000000000002328      0x180 ./library/HttpClient/b64.o
+ .stab          0x0000000000002d54      0x180 ./library/HttpClient/b64.o
                                         0x30c (size before relaxing)
- .stab          0x00000000000024a8      0xe88 ./library/Ethernet/utility/socket.o
+ .stab          0x0000000000002ed4      0xe88 ./library/Ethernet/utility/socket.o
                                        0x1398 (size before relaxing)
- .stab          0x0000000000003330     0x117c ./library/Ethernet/utility/w5100.o
+ .stab          0x0000000000003d5c     0x117c ./library/Ethernet/utility/w5100.o
                                        0x1188 (size before relaxing)
- .stab          0x00000000000044ac     0x14c4 ./library/Ethernet/Dhcp.o
+ .stab          0x0000000000004ed8     0x14c4 ./library/Ethernet/Dhcp.o
                                        0x16d4 (size before relaxing)
- .stab          0x0000000000005970      0xf84 ./library/Ethernet/Dns.o
+ .stab          0x000000000000639c      0xf84 ./library/Ethernet/Dns.o
                                         0xf90 (size before relaxing)
- .stab          0x00000000000068f4      0x9cc ./library/Ethernet/Ethernet.o
+ .stab          0x0000000000007320      0x9cc ./library/Ethernet/Ethernet.o
                                         0xf48 (size before relaxing)
- .stab          0x00000000000072c0      0xedc ./library/Ethernet/EthernetClient.o
+ .stab          0x0000000000007cec      0xedc ./library/Ethernet/EthernetClient.o
                                         0xf60 (size before relaxing)
- .stab          0x000000000000819c      0x6f0 ./library/Ethernet/EthernetServer.o
+ .stab          0x0000000000008bc8      0x6f0 ./library/Ethernet/EthernetServer.o
                                         0xc24 (size before relaxing)
- .stab          0x000000000000888c      0xf60 ./library/Ethernet/EthernetUdp.o
+ .stab          0x00000000000092b8      0xf60 ./library/Ethernet/EthernetUdp.o
                                         0xf6c (size before relaxing)
- .stab          0x00000000000097ec      0xa20 ./library/CosmArduino/CosmClient.o
+ .stab          0x000000000000a218      0xa20 ./library/CosmArduino/CosmClient.o
                                         0xfc0 (size before relaxing)
- .stab          0x000000000000a20c      0x648 ./library/CosmArduino/CosmDatastream.o
+ .stab          0x000000000000ac38      0x648 ./library/CosmArduino/CosmDatastream.o
                                         0xbf4 (size before relaxing)
- .stab          0x000000000000a854      0x654 ./library/CosmArduino/CosmFeed.o
+ .stab          0x000000000000b280      0x654 ./library/CosmArduino/CosmFeed.o
                                         0x660 (size before relaxing)
- .stab          0x000000000000aea8      0x960 ./main.o
-                                        0x96c (size before relaxing)
- .stab          0x000000000000b808     0x129c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
+ .stab          0x000000000000b8d4      0x7e0 ./DS18B20.o
+                                        0x888 (size before relaxing)
+ .stab          0x000000000000c0b4      0xa68 ./main.o
+                                        0xa74 (size before relaxing)
+ .stab          0x000000000000cb1c     0x129c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
                                        0x1650 (size before relaxing)
- .stab          0x000000000000caa4      0x7f8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
+ .stab          0x000000000000ddb8      0x7f8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
                                         0x8dc (size before relaxing)
- .stab          0x000000000000d29c      0xe58 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+ .stab          0x000000000000e5b0      0xeb8 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
                                        0x120c (size before relaxing)
- .stab          0x000000000000e0f4      0x414 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Stream.o)
+ .stab          0x000000000000f468      0x414 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Stream.o)
                                         0xf84 (size before relaxing)
- .stab          0x000000000000e508      0x294 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WMath.o)
+ .stab          0x000000000000f87c      0x294 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WMath.o)
                                         0x3b4 (size before relaxing)
- .stab          0x000000000000e79c      0x6b4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
+ .stab          0x000000000000fb10      0x6b4 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WString.o)
                                        0x23ac (size before relaxing)
- .stab          0x000000000000ee50      0x594 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
+ .stab          0x00000000000101c4      0x594 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(main.o)
                                         0x5a0 (size before relaxing)
- .stab          0x000000000000f3e4      0x21c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
+ .stab          0x0000000000010758      0x21c /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
                                         0x2f4 (size before relaxing)
- .stab          0x000000000000f600      0x924 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
+ .stab          0x0000000000010974      0x978 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
                                         0x984 (size before relaxing)
- .stab          0x000000000000ff24      0x5d0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
+ .stab          0x00000000000112ec      0x5d0 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
                                         0xae0 (size before relaxing)
- .stab          0x00000000000104f4      0x78c /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
+ .stab          0x00000000000118bc      0x78c /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
                                         0x798 (size before relaxing)
- .stab          0x0000000000010c80      0x2ac /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(random.o)
+ .stab          0x0000000000012048      0x2ac /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(random.o)
                                         0x30c (size before relaxing)
- .stab          0x0000000000010f2c      0x3e4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
+ .stab          0x00000000000122f4      0x3e4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
                                         0x5dc (size before relaxing)
- .stab          0x0000000000011310      0x1e0 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(atol.o)
+ .stab          0x00000000000126d8      0x1e0 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(atol.o)
                                         0x1ec (size before relaxing)
- .stab          0x00000000000114f0       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(isspace.o)
+ .stab          0x00000000000128b8       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(isspace.o)
                                          0xa8 (size before relaxing)
- .stab          0x0000000000011508       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(tolower.o)
+ .stab          0x00000000000128d0       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(tolower.o)
                                          0xa8 (size before relaxing)
- .stab          0x0000000000011520       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(toupper.o)
+ .stab          0x00000000000128e8       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(toupper.o)
                                          0xa8 (size before relaxing)
- .stab          0x0000000000011538       0xb4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memcmp.o)
+ .stab          0x0000000000012900       0xb4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memcmp.o)
                                          0xc0 (size before relaxing)
- .stab          0x00000000000115ec       0x84 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memcpy.o)
+ .stab          0x00000000000129b4       0x84 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memcpy.o)
                                          0x90 (size before relaxing)
- .stab          0x0000000000011670       0xe4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memmove.o)
+ .stab          0x0000000000012a38       0xe4 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(memmove.o)
                                          0xf0 (size before relaxing)
- .stab          0x0000000000011754       0x9c /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcat.o)
+ .stab          0x0000000000012b1c       0x9c /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcat.o)
                                          0xa8 (size before relaxing)
- .stab          0x00000000000117f0       0x9c /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strchr.o)
+ .stab          0x0000000000012bb8       0x9c /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strchr.o)
                                          0xa8 (size before relaxing)
- .stab          0x000000000001188c       0x84 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcmp.o)
+ .stab          0x0000000000012c54       0x84 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcmp.o)
                                          0x90 (size before relaxing)
- .stab          0x0000000000011910       0x6c /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcpy.o)
+ .stab          0x0000000000012cd8       0x6c /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strcpy.o)
                                          0x78 (size before relaxing)
- .stab          0x000000000001197c       0xc0 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strncmp.o)
+ .stab          0x0000000000012d44       0xc0 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strncmp.o)
                                          0xcc (size before relaxing)
- .stab          0x0000000000011a3c       0xcc /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strncpy.o)
+ .stab          0x0000000000012e04       0xcc /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strncpy.o)
                                          0xd8 (size before relaxing)
- .stab          0x0000000000011b08       0x9c /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strrchr.o)
+ .stab          0x0000000000012ed0       0x9c /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strrchr.o)
                                          0xa8 (size before relaxing)
- .stab          0x0000000000011ba4      0x150 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strstr.o)
+ .stab          0x0000000000012f6c      0x150 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strstr.o)
                                         0x15c (size before relaxing)
- .stab          0x0000000000011cf4       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(itoa.o)
+ .stab          0x00000000000130bc       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(itoa.o)
                                         0x1bc (size before relaxing)
- .stab          0x0000000000011d0c       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(ltoa.o)
+ .stab          0x00000000000130d4       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(ltoa.o)
                                         0x2a0 (size before relaxing)
- .stab          0x0000000000011d24      0x114 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(mulsi10.o)
+ .stab          0x00000000000130ec      0x114 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(mulsi10.o)
                                         0x120 (size before relaxing)
- .stab          0x0000000000011e38       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(ultoa.o)
+ .stab          0x0000000000013200       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(ultoa.o)
                                         0x1ec (size before relaxing)
- .stab          0x0000000000011e50       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(utoa.o)
+ .stab          0x0000000000013218       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(utoa.o)
                                         0x138 (size before relaxing)
- .stab          0x0000000000011e68       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
+ .stab          0x0000000000013230       0x18 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(cty_isfalse.o)
                                          0x6c (size before relaxing)
- .stab          0x0000000000011e80       0xd8 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strrev.o)
+ .stab          0x0000000000013248       0xd8 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(strrev.o)
                                          0xe4 (size before relaxing)
 
-.stabstr        0x0000000000000000     0xb1c8
+.stabstr        0x0000000000000000     0xb6bd
  *(.stabstr)
- .stabstr       0x0000000000000000     0xb1c8 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
+ .stabstr       0x0000000000000000     0xb6bd /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 
 .stab.excl
  *(.stab.excl)
@@ -2375,6 +2419,7 @@ LOAD /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a
  .comment       0x0000000000000000       0x12 ./library/CosmArduino/CosmClient.o
  .comment       0x0000000000000000       0x12 ./library/CosmArduino/CosmDatastream.o
  .comment       0x0000000000000000       0x12 ./library/CosmArduino/CosmFeed.o
+ .comment       0x0000000000000000       0x12 ./DS18B20.o
  .comment       0x0000000000000000       0x12 ./main.o
  .comment       0x0000000000000000       0x12 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(HardwareSerial.o)
  .comment       0x0000000000000000       0x12 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
@@ -2496,6 +2541,17 @@ DNSClient::getHostByName(char const*, IPAddress&) ./library/Ethernet/Dns.o
                                                   ./library/Ethernet/EthernetUdp.o
                                                   ./library/Ethernet/EthernetClient.o
 DNSClient::inet_aton(char const*, IPAddress&)     ./library/Ethernet/Dns.o
+DS18B20::DS18B20(unsigned char)                   ./DS18B20.o
+DS18B20::DS18B20(unsigned char)                   ./DS18B20.o
+                                                  ./main.o
+DS18B20::getNumberOfSensors()                     ./DS18B20.o
+DS18B20::getTemperature(unsigned char)            ./DS18B20.o
+DS18B20::search()                                 ./DS18B20.o
+                                                  ./main.o
+DS18B20::startAndWaitForTemperature(unsigned char) ./DS18B20.o
+                                                  ./main.o
+DS18B20::startMeasurement(unsigned char)          ./DS18B20.o
+DS18B20::startMeasurementAll()                    ./DS18B20.o
 DhcpClass::beginWithDHCP(unsigned char*, unsigned long, unsigned long) ./library/Ethernet/Dhcp.o
                                                   ./library/Ethernet/Ethernet.o
 DhcpClass::checkLease()                           ./library/Ethernet/Dhcp.o
@@ -2700,19 +2756,28 @@ IPAddress::operator==(unsigned char const*)       /home/yura/Projects/ArduinoCos
 IPAddress::printTo(Print&) const                  /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(IPAddress.o)
 OneWire::OneWire(unsigned char)                   ./library/OneWire/OneWire.o
 OneWire::OneWire(unsigned char)                   ./library/OneWire/OneWire.o
+                                                  ./DS18B20.o
 OneWire::check_crc16(unsigned char*, unsigned int, unsigned char*) ./library/OneWire/OneWire.o
 OneWire::crc16(unsigned char*, unsigned int)      ./library/OneWire/OneWire.o
 OneWire::crc8(unsigned char*, unsigned char)      ./library/OneWire/OneWire.o
+                                                  ./DS18B20.o
 OneWire::depower()                                ./library/OneWire/OneWire.o
 OneWire::read()                                   ./library/OneWire/OneWire.o
+                                                  ./DS18B20.o
 OneWire::read_bit()                               ./library/OneWire/OneWire.o
 OneWire::read_bytes(unsigned char*, unsigned int) ./library/OneWire/OneWire.o
 OneWire::reset()                                  ./library/OneWire/OneWire.o
+                                                  ./DS18B20.o
 OneWire::reset_search()                           ./library/OneWire/OneWire.o
+                                                  ./DS18B20.o
 OneWire::search(unsigned char*)                   ./library/OneWire/OneWire.o
+                                                  ./DS18B20.o
 OneWire::select(unsigned char*)                   ./library/OneWire/OneWire.o
+                                                  ./DS18B20.o
 OneWire::skip()                                   ./library/OneWire/OneWire.o
+                                                  ./DS18B20.o
 OneWire::write(unsigned char, unsigned char)      ./library/OneWire/OneWire.o
+                                                  ./DS18B20.o
 OneWire::write_bit(unsigned char)                 ./library/OneWire/OneWire.o
 OneWire::write_bytes(unsigned char const*, unsigned int, bool) ./library/OneWire/OneWire.o
 Print::print(Printable const&)                    /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
@@ -2759,6 +2824,7 @@ Print::println(int, int)                          /home/yura/Projects/ArduinoCos
                                                   ./library/HttpClient/HttpClient.o
 Print::println(long, int)                         /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 Print::println(unsigned char, int)                /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  ./main.o
 Print::println(unsigned int, int)                 /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 Print::println(unsigned long, int)                /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 Print::write(char const*)                         /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
@@ -3048,6 +3114,7 @@ __fixunssfsi                                      /usr/lib/gcc/avr/4.7.0/avr6/li
 __floatsisf                                       /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_si_to_sf.o)
                                                   /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Stream.o)
                                                   /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  ./DS18B20.o
 __floatunsisf                                     /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_usi_to_sf.o)
                                                   /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __flp                                             /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
@@ -3069,6 +3136,7 @@ __lesf2                                           /usr/lib/gcc/avr/4.7.0/avr6/li
                                                   /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
 __ltsf2                                           /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_lt_sf.o)
                                                   /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  ./main.o
 __malloc_heap_end                                 /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(realloc.o)
 __malloc_heap_start                               /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/libc.a(malloc.o)
@@ -3079,6 +3147,7 @@ __mulohisi3                                       /usr/lib/gcc/avr/4.7.0/avr6/li
 __mulsf3                                          /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_mul_sf.o)
                                                   /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Stream.o)
                                                   /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(Print.o)
+                                                  ./DS18B20.o
 __mulshisi3                                       /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_mulshisi3.o)
 __mulsi3                                          /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_mulsi3.o)
                                                   /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(WMath.o)
@@ -3230,6 +3299,7 @@ cosmclient                                        ./main.o
 datastreams                                       ./main.o
 delay                                             /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring.o)
                                                   ./main.o
+                                                  ./DS18B20.o
                                                   ./library/CosmArduino/CosmClient.o
                                                   ./library/Ethernet/EthernetClient.o
                                                   ./library/Ethernet/Dns.o
@@ -3248,6 +3318,7 @@ digital_pin_to_port_PGM                           /home/yura/Projects/ArduinoCos
 digital_pin_to_timer_PGM                          /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(wiring_digital.o)
 disconnect(unsigned char)                         ./library/Ethernet/utility/socket.o
                                                   ./library/Ethernet/EthernetClient.o
+ds                                                ./main.o
 exit                                              /usr/lib/gcc/avr/4.7.0/avr6/libgcc.a(_exit.o)
                                                   /usr/lib/gcc/avr/4.7.0/../../../avr/lib/avr6/crtm2560.o
 feed                                              ./main.o
@@ -3295,6 +3366,7 @@ millis                                            /home/yura/Projects/ArduinoCos
                                                   ./library/Ethernet/Dns.o
                                                   ./library/Ethernet/Dhcp.o
                                                   ./library/HttpClient/HttpClient.o
+numberOfSensors                                   ./main.o
 operator delete(void*)                            /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
 operator new(unsigned int)                        /home/yura/Projects/ArduinoCosmTemp/ArduinoCoreLibrary/Mega2560/libArduinoCoreLibrary.a(new.o)
                                                   ./library/Ethernet/Ethernet.o

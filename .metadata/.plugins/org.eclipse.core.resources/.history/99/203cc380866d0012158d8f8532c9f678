@@ -1,0 +1,66 @@
+#include "DS18B20.h"
+
+
+#define DS18B20_CMD_START_CONVERSION  	0x44
+#define DS18B20_CMD_READ_SCRATCHPAD		0xBE
+
+
+DS18B20::DS18B20(byte pinNumber)
+	: mNumberOfFoundSensors(0)
+	, mOW(pinNumber)
+{
+}
+
+// ----------------------------------------------------------------------------
+
+byte DS18B20::search(void)
+{
+	mNumberOfFoundSensors = 0;
+	mOW.reset_search();
+
+	while (mOW.search(mAddrList[mNumberOfFoundSensors]) &&
+			mNumberOfFoundSensors < MAX_NUMBER_OF_SENSORS)
+	{
+		mNumberOfFoundSensors++;
+	}
+
+	return mNumberOfFoundSensors;
+}
+
+// ----------------------------------------------------------------------------
+
+void DS18B20::startMeasurement(byte sensorIndex)
+{
+	if (sensorIndex >= mNumberOfFoundSensors)
+		return;
+
+	mOW.reset();
+	mOW.select(mAddrList[sensorIndex]);
+	mOW.write(DS18B20_CMD_START_CONVERSION);
+}
+
+// ----------------------------------------------------------------------------
+
+void DS18B20::startMeasurementAll(void)
+{
+}
+
+// ----------------------------------------------------------------------------
+
+float DS18B20::getTemperature(byte sensorIndex)
+{
+}
+
+// ----------------------------------------------------------------------------
+
+byte DS18B20::getNumberOfSensors(void)
+{
+	return mNumberOfFoundSensors;
+}
+
+// ----------------------------------------------------------------------------
+
+float DS18B20::startAndWaitForTemperature(byte sensorIndex)
+{
+}
+
