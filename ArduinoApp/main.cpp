@@ -5,6 +5,8 @@
 
 #include "DS18B20.h"
 
+#include <DHT.h>
+
 #include "cosm.key"
 
 // MAC address for your Ethernet shield
@@ -13,86 +15,99 @@ byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 // Your Cosm key to let you upload data
 char cosmKey[] = PRIVATE_COSM_KEY;  // defined in cosm.key
 
-// Analog pin which we're monitoring (0 and 1 are used by the Ethernet shield)
-int sensorPin = 2;
 
 // Define the strings for our datastream IDs
 char indoorSensorId[] = "indoor";
 char outdoorSensorId[] = "outdoor";
+char humidityId[] = "humidity";
 
 CosmDatastream datastreams[] = {
-  CosmDatastream(indoorSensorId, strlen(indoorSensorId), DATASTREAM_FLOAT),
-  CosmDatastream(outdoorSensorId, strlen(outdoorSensorId), DATASTREAM_FLOAT),
+   CosmDatastream(indoorSensorId, strlen(indoorSensorId), DATASTREAM_FLOAT),
+   CosmDatastream(outdoorSensorId, strlen(outdoorSensorId), DATASTREAM_FLOAT),
+   CosmDatastream(humidityId, strlen(humidityId), DATASTREAM_FLOAT),
 };
 // Finally, wrap the datastreams into a feed
-CosmFeed feed(102125, datastreams, 2 /* number of datastreams */);
+CosmFeed feed(102125, datastreams, 3 /* number of datastreams */);
 
 EthernetClient client;
 CosmClient cosmclient(client);
 
 // ----------------------------------------------------------------------------
 
-DS18B20 ds(20);
+DS18B20 ds(14);
 byte numberOfSensors;
 
-
+DHT dht(15, DHT22);
 
 void setup()
 {
-	// put your setup code here, to run once:
-	Serial.begin(9600);
+   // put your setup code here, to run once:
+   Serial.begin(9600);
 
-	Serial.println("Starting multiple datastream upload to Cosm...");
-	Serial.println();
+   Serial.println("Starting multiple datastream upload to Cosm...");
+   Serial.println();
 
-	while (Ethernet.begin(mac) != 1)
-	{
-	Serial.println("Error getting IP address via DHCP, trying again...");
-	delay(15000);
-	}
+   while (Ethernet.begin(mac) != 1)
+   {
+      Serial.println("Error getting IP address via DHCP, trying again...");
+      delay(15000);
+   }
 
-	numberOfSensors = ds.search();
+   numberOfSensors = ds.search();
 
-	Serial.print("Found sensors: ");
-	Serial.println(numberOfSensors);
+   Serial.print("Found sensors: ");
+   Serial.println(numberOfSensors);
+
+   dht.begin();
 }
 
 void loop()
 {
-	if (numberOfSensors < 2)
-	{
-		Serial.println("Not enough sensors. Need at least two sensors.");
-		numberOfSensors = ds.search();
-		delay(3000);
-		return;
-	}
+   if (numberOfSensors < 2)
+   {
+      Serial.println("Not enough sensors. Need at least two sensors.");
+      numberOfSensors = ds.search();
+      delay(3000);
+      return;
+   }
 
-	float indoorTemp = ds.startAndWaitForTemperature(0);
-	float outdoorTemp = ds.startAndWaitForTemperature(1);
+   float indoorTemp = ds.startAndWaitForTemperature(0);
+   float outdoorTemp = ds.startAndWaitForTemperature(1);
+   float humidity = dht.readHumidity();
 
-	if (indoorTemp < -100 || outdoorTemp < -100)
-	{
-		Serial.println("Invalid temperature");
-		delay(3000);
-		return;
-	}
+   if (indoorTemp < -100 || outdoorTemp < -100)
+   {
+      Serial.println("Invalid temperature");
+      delay(3000);
+      return;
+   }
 
-	datastreams[0].setFloat(indoorTemp);
+   if (isnan(humidity))
+   {
+      Serial.println("Failed to read from DHT");
+      delay(3000);
+      return;
+   }
 
-	Serial.print("Read indoor sensor value ");
-	Serial.println(datastreams[0].getFloat());
+   datastreams[0].setFloat(indoorTemp);
+   Serial.print("Read indoor sensor value ");
+   Serial.println(datastreams[0].getFloat());
 
-	datastreams[1].setFloat(outdoorTemp);
-	Serial.print("Read outdoor sensor value ");
-	Serial.println(datastreams[1].getFloat());
+   datastreams[1].setFloat(outdoorTemp);
+   Serial.print("Read outdoor sensor value ");
+   Serial.println(datastreams[1].getFloat());
 
-	Serial.println("Uploading it to Cosm");
-	int ret = cosmclient.put(feed, cosmKey);
-	Serial.print("cosmclient.put returned ");
-	Serial.println(ret);
+   datastreams[2].setFloat(humidity);
+   Serial.print("Humidity: ");
+   Serial.println(datastreams[2].getFloat());
 
-	Serial.println();
+   Serial.println("Uploading it to Cosm");
+   int ret = cosmclient.put(feed, cosmKey);
+   Serial.print("cosmclient.put returned ");
+   Serial.println(ret);
 
-	delay(30000);
+   Serial.println();
+
+   delay(20000);
 }
 
