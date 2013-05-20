@@ -4,3 +4,6 @@
 [submodule "ArduinoApp/library/HttpClient"]
 	path = ArduinoApp/library/HttpClient
 	url = https://github.com/amcewen/HttpClient
+[submodule "ArduinoApp/library/dht"]
+	path = ArduinoApp/library/dht
+	url = https://github.com/adafruit/DHT-sensor-library.git
