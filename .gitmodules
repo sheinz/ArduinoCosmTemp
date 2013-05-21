@@ -7,3 +7,6 @@
 [submodule "ArduinoApp/library/dht"]
 	path = ArduinoApp/library/dht
 	url = https://github.com/adafruit/DHT-sensor-library.git
+[submodule "ArduinoApp/library/BMP085"]
+	path = ArduinoApp/library/BMP085
+	url = https://github.com/adafruit/Adafruit-BMP085-Library.git
