@@ -6,6 +6,7 @@
 #include "DS18B20.h"
 
 #include <DHT.h>
+#include <Adafruit_BMP085.h>
 
 #include "cosm.key"
 
@@ -20,14 +21,16 @@ char cosmKey[] = PRIVATE_COSM_KEY;  // defined in cosm.key
 char indoorSensorId[] = "indoor";
 char outdoorSensorId[] = "outdoor";
 char humidityId[] = "humidity";
+char pressureId[] = "pressure";
 
 CosmDatastream datastreams[] = {
    CosmDatastream(indoorSensorId, strlen(indoorSensorId), DATASTREAM_FLOAT),
    CosmDatastream(outdoorSensorId, strlen(outdoorSensorId), DATASTREAM_FLOAT),
    CosmDatastream(humidityId, strlen(humidityId), DATASTREAM_FLOAT),
+   CosmDatastream(pressureId, strlen(pressureId), DATASTREAM_FLOAT),
 };
 // Finally, wrap the datastreams into a feed
-CosmFeed feed(102125, datastreams, 3 /* number of datastreams */);
+CosmFeed feed(102125, datastreams, 4 /* number of datastreams */);
 
 EthernetClient client;
 CosmClient cosmclient(client);
@@ -38,6 +41,7 @@ DS18B20 ds(14);
 byte numberOfSensors;
 
 DHT dht(15, DHT22);
+Adafruit_BMP085 bmp;
 
 void setup()
 {
@@ -59,6 +63,12 @@ void setup()
    Serial.println(numberOfSensors);
 
    dht.begin();
+
+   if (!bmp.begin())
+   {
+      Serial.println("Could not find a valid BMP085 sensor, check wiring!");
+      while (1) {}
+   }
 }
 
 void loop()
@@ -74,6 +84,8 @@ void loop()
    float indoorTemp = ds.startAndWaitForTemperature(0);
    float outdoorTemp = ds.startAndWaitForTemperature(1);
    float humidity = dht.readHumidity();
+   int32_t pressure = bmp.readPressure();
+
 
    if (indoorTemp < -100 || outdoorTemp < -100)
    {
@@ -101,6 +113,11 @@ void loop()
    Serial.print("Humidity: ");
    Serial.println(datastreams[2].getFloat());
 
+   datastreams[3].setFloat(pressure);
+   Serial.print("Pressure = ");
+   Serial.print(datastreams[3].getFloat());
+   Serial.println(" Pa");
+
    Serial.println("Uploading it to Cosm");
    int ret = cosmclient.put(feed, cosmKey);
    Serial.print("cosmclient.put returned ");
@@ -108,6 +125,6 @@ void loop()
 
    Serial.println();
 
-   delay(20000);
+   delay(5000);
 }
 
