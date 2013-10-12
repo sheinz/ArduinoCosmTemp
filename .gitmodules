@@ -1,6 +1,3 @@
-[submodule "ArduinoApp/library/CosmArduino"]
-	path = ArduinoApp/library/CosmArduino
-	url = git://github.com/cosm/cosm-arduino.git
 [submodule "ArduinoApp/library/HttpClient"]
 	path = ArduinoApp/library/HttpClient
 	url = https://github.com/amcewen/HttpClient
