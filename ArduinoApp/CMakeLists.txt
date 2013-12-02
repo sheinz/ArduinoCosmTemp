@@ -1,4 +1,6 @@
 
+set(ARDUINO_APP_BOARD uno)
+
 add_subdirectory(library)   
 
 include_directories(
@@ -10,11 +12,12 @@ include_directories(
     ./library/HttpClient
     ./library/SPI
     ./library/Wire
+    ./
     )
 
 set(ArduinoApp_SRCS main.cpp DS18B20.cpp)
 set(ArduinoApp_PORT  /dev/ttyACM0)
-set(ArduinoApp_BOARD mega2560)
+set(ArduinoApp_BOARD ${ARDUINO_APP_BOARD})
 set(ArduinoApp_LIBS 
          OneWire_lib
          BMP085_lib

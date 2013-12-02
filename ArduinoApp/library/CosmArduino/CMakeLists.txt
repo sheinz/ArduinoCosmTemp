@@ -15,6 +15,6 @@ set(CosmArduino_lib_HDRS
         Cosm.h
         CountingStream.h
     )
-set(CosmArduino_lib_BOARD mega2560)
+set(CosmArduino_lib_BOARD ${ARDUINO_APP_BOARD})
 
 generate_arduino_library(CosmArduino_lib)

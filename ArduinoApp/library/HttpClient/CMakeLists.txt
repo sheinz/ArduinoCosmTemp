@@ -8,6 +8,6 @@ set(HttpClient_lib_HDRS
         b64.h
         HttpClient.h
     )
-set(HttpClient_lib_BOARD mega2560)
+set(HttpClient_lib_BOARD ${ARDUINO_APP_BOARD})
 
 generate_arduino_library(HttpClient_lib)

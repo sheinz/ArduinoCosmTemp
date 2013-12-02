@@ -22,6 +22,6 @@ set(Ethernet_lib_HDRS
         EthernetUdp.h
         util.h
     )
-set(Ethernet_lib_BOARD mega2560)
+set(Ethernet_lib_BOARD ${ARDUINO_APP_BOARD})
 
 generate_arduino_library(Ethernet_lib)

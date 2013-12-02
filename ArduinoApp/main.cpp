@@ -37,10 +37,10 @@ CosmClient cosmclient(client);
 
 // ----------------------------------------------------------------------------
 
-DS18B20 ds(14);
+DS18B20 ds(5);
 byte numberOfSensors;
 
-DHT dht(15, DHT22);
+DHT dht(2, DHT22);
 Adafruit_BMP085 bmp;
 
 void setup()
@@ -83,6 +83,7 @@ void loop()
 
    float indoorTemp = ds.startAndWaitForTemperature(0);
    float outdoorTemp = ds.startAndWaitForTemperature(1);
+
    float humidity = dht.readHumidity();
    int32_t pressure = bmp.readPressure();
 
