@@ -22,3 +22,7 @@
 Debug/
 Release/
 Mega2560/
+
+.cproject
+.project
+

@@ -8,7 +8,7 @@ class DS18B20
 {
 public:
 
-	static const byte MAX_NUMBER_OF_SENSORS = 8;
+	static const byte MAX_NUMBER_OF_SENSORS = 2;
 
 	DS18B20(byte pinNumber);
 
