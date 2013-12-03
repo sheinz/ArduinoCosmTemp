@@ -1,20 +1,20 @@
 #include <SPI.h>
 #include <Ethernet.h>
 #include <HttpClient.h>
-#include <Cosm.h>
+#include <Xively.h>
 
 #include "DS18B20.h"
 
 #include <DHT.h>
 #include <Adafruit_BMP085.h>
 
-#include "cosm.key"
+#include "xively.key"
 
 // MAC address for your Ethernet shield
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 
-// Your Cosm key to let you upload data
-char cosmKey[] = PRIVATE_COSM_KEY;  // defined in cosm.key
+// Your Xively key to let you upload data
+char cosmKey[] = PRIVATE_XIVELY_KEY;  // defined in cosm.key
 
 
 // Define the strings for our datastream IDs
@@ -23,17 +23,17 @@ char outdoorSensorId[] = "outdoor";
 char humidityId[] = "humidity";
 char pressureId[] = "pressure";
 
-CosmDatastream datastreams[] = {
-   CosmDatastream(indoorSensorId, strlen(indoorSensorId), DATASTREAM_FLOAT),
-   CosmDatastream(outdoorSensorId, strlen(outdoorSensorId), DATASTREAM_FLOAT),
-   CosmDatastream(humidityId, strlen(humidityId), DATASTREAM_FLOAT),
-   CosmDatastream(pressureId, strlen(pressureId), DATASTREAM_FLOAT),
+XivelyDatastream datastreams[] = {
+   XivelyDatastream(indoorSensorId, strlen(indoorSensorId), DATASTREAM_FLOAT),
+   XivelyDatastream(outdoorSensorId, strlen(outdoorSensorId), DATASTREAM_FLOAT),
+   XivelyDatastream(humidityId, strlen(humidityId), DATASTREAM_FLOAT),
+   XivelyDatastream(pressureId, strlen(pressureId), DATASTREAM_FLOAT),
 };
 // Finally, wrap the datastreams into a feed
-CosmFeed feed(102125, datastreams, 4 /* number of datastreams */);
+XivelyFeed feed(102125, datastreams, 4 /* number of datastreams */);
 
 EthernetClient client;
-CosmClient cosmclient(client);
+XivelyClient xivelyclient(client);
 
 // ----------------------------------------------------------------------------
 
@@ -48,7 +48,7 @@ void setup()
    // put your setup code here, to run once:
    Serial.begin(9600);
 
-   Serial.println("Starting multiple datastream upload to Cosm...");
+   Serial.println("Starting multiple datastream upload to Xively...");
    Serial.println();
 
    while (Ethernet.begin(mac) != 1)
@@ -119,8 +119,8 @@ void loop()
    Serial.print(datastreams[3].getFloat());
    Serial.println(" Pa");
 
-   Serial.println("Uploading it to Cosm");
-   int ret = cosmclient.put(feed, cosmKey);
+   Serial.println("Uploading it to Xively");
+   int ret = xivelyclient.put(feed, cosmKey);
    Serial.print("cosmclient.put returned ");
    Serial.println(ret);
 

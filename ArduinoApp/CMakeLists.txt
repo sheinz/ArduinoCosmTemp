@@ -6,12 +6,12 @@ add_subdirectory(library)
 include_directories(
     ./library/OneWire
     ./library/BMP085
-    ./library/CosmArduino
     ./library/dht
     ./library/Ethernet
     ./library/HttpClient
     ./library/SPI
     ./library/Wire
+    ./library/Xively
     ./
     )
 
@@ -21,12 +21,12 @@ set(ArduinoApp_BOARD ${ARDUINO_APP_BOARD})
 set(ArduinoApp_LIBS 
          OneWire_lib
          BMP085_lib
-         CosmArduino_lib
          DHT_lib
          Ethernet_lib
          HttpClient_lib
          SPI_lib
          Wire_lib
+         Xively_lib
     )
 
 
